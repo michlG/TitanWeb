@@ -1,0 +1,18 @@
+{
+    "ID":"3c8d294f-a063-4e8a-aa8c-2085a8e7ccfe",
+    "Symbol":"NAFC",
+    "Name":"Nash Finch Co",
+    "LastPrice":24.39,
+    "Change":0.0199999999999996,
+    "ChangePercent":0.0820681165367265,
+    "Timestamp":"Wed Sep 4 11:16:46 UTC-04:00 2013",
+    "MarketCap":300387240,
+    "Volume":300,
+    "ChangeYTD":21.28,
+    "ChangePercentYTD":14.6146616541353,
+    "HighPrice":24.39,
+    "LowPrice":24.39,
+    "OpenPrice":24.39,
+    "AlarmPrice":22.00,
+    "IsFavourite":0
+}

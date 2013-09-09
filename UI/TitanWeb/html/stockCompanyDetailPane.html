@@ -1,0 +1,19 @@
+<div style="width: 100%">
+    <div id="dustDetailPlaceHolder">
+        <div style="width: 100px; margin: 0 auto;">
+            <img src="../assets/metroui/images/preloader-w8-cycle-black.gif" width="100px" />
+        </div>
+    </div>
+
+    <script>
+        $(function () {
+            var url ="../../Titan/StockCompanies/" + window.location.hash.substring(1) + ".json";
+            window.location.hash="";
+            $.get(url, function (jsonObject) {
+                dust.render("stockCompanyDetailPaneTemplate.dust", jsonObject, function (err, out) {
+                    $("#dustDetailPlaceHolder").html(out);
+                });
+            });
+        });
+    </script>
+</div>

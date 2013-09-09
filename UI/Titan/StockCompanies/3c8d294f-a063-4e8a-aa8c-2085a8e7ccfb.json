@@ -1,0 +1,18 @@
+{
+    "ID":"3c8d294f-a063-4e8a-aa8c-2085a8e7ccfb",
+    "Symbol":"MSFT",
+    "Name":"Microsoft Corp",
+    "LastPrice":31.19,
+    "Change":-0.689999999999998,
+    "ChangePercent":-2.16436637390213,
+    "Timestamp":"Wed Sep 4 11:32:16 UTC-04:00 2013",
+    "MarketCap":259811327640,
+    "Volume":7102641,
+    "ChangeYTD":26.7097,
+    "ChangePercentYTD":16.7740558673441,
+    "HighPrice":31.465,
+    "LowPrice":31.115,
+    "OpenPrice":31.39,
+    "AlarmPrice":32.00,
+    "IsFavourite":0
+}

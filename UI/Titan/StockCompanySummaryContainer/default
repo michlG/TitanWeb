@@ -1,0 +1,284 @@
+﻿<NodeSummaryContainer xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/AaltoGlobalImpact.OIP">
+  <ID>d9e73b18-37e8-4eb5-b2e7-83c1c93e020d</ID>
+  <MasterETag i:nil="true" />
+  <Name>NodeSummaryContainer</Name>
+  <NodeSourceActivities>
+    <CollectionContent />
+    <ID>2016da15-c316-4590-9030-bb6524abc85a</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>ActivityCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/fff483ed-f45e-419e-8e3a-99f48d2f4fa8/AaltoGlobalImpact.OIP/ActivityCollection/2016da15-c316-4590-9030-bb6524abc85a</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </NodeSourceActivities>
+  <NodeSourceBlogs>
+    <CollectionContent />
+    <ID>afe7e133-93ee-4a71-b139-2330fab9dc0f</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>BlogCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/fff483ed-f45e-419e-8e3a-99f48d2f4fa8/AaltoGlobalImpact.OIP/BlogCollection/afe7e133-93ee-4a71-b139-2330fab9dc0f</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </NodeSourceBlogs>
+  <NodeSourceTextContent>
+    <CollectionContent />
+    <ID>c1acb73a-dfcf-42ef-999d-14fbaa3f6b13</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>TextContentCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/fff483ed-f45e-419e-8e3a-99f48d2f4fa8/AaltoGlobalImpact.OIP/TextContentCollection/c1acb73a-dfcf-42ef-999d-14fbaa3f6b13</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </NodeSourceTextContent>
+  <Nodes>
+    <CollectionContent>
+      <RenderedNode>
+        <ActualContentUrl>../AaltoGlobalImpact.OIP/TextContent/c5d2b97a-1c84-4b71-b2c5-f2a485a65f75</ActualContentUrl>
+        <Authors>
+          <CollectionContent>
+            <ShortTextObject>
+              <Content>Kalle Launiala</Content>
+              <ID>dfd1273f-c5c8-4c5b-a7e0-a36049fad66b</ID>
+              <MasterETag i:nil="true" />
+              <Name>ShortTextObject</Name>
+              <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+              <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextObject/dfd1273f-c5c8-4c5b-a7e0-a36049fad66b</RelativeLocation>
+              <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            </ShortTextObject>
+          </CollectionContent>
+          <ID>df7f9bb1-55f4-4c06-97ed-4f5432f4cb42</ID>
+          <IsCollectionFiltered>false</IsCollectionFiltered>
+          <MasterETag i:nil="true" />
+          <Name>ShortTextCollection</Name>
+          <OrderFilterIDList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+          <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextCollection/df7f9bb1-55f4-4c06-97ed-4f5432f4cb42</RelativeLocation>
+          <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        </Authors>
+        <Categories>
+          <CollectionContent>
+            <ShortTextObject>
+              <Content>About</Content>
+              <ID>7b3db9e9-42a4-4f56-9383-0877a248954d</ID>
+              <MasterETag i:nil="true" />
+              <Name>ShortTextObject</Name>
+              <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+              <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextObject/7b3db9e9-42a4-4f56-9383-0877a248954d</RelativeLocation>
+              <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            </ShortTextObject>
+            <ShortTextObject>
+              <Content>Developers</Content>
+              <ID>b5b13b11-c6c1-4306-9c08-56d49275ff25</ID>
+              <MasterETag i:nil="true" />
+              <Name>ShortTextObject</Name>
+              <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+              <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextObject/b5b13b11-c6c1-4306-9c08-56d49275ff25</RelativeLocation>
+              <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            </ShortTextObject>
+            <ShortTextObject>
+              <Content>Spectators</Content>
+              <ID>c0eda342-86a6-4898-80f0-d6896bf3337e</ID>
+              <MasterETag i:nil="true" />
+              <Name>ShortTextObject</Name>
+              <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+              <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextObject/c0eda342-86a6-4898-80f0-d6896bf3337e</RelativeLocation>
+              <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            </ShortTextObject>
+          </CollectionContent>
+          <ID>71b8f2db-b475-4264-942a-d31869c15c4a</ID>
+          <IsCollectionFiltered>false</IsCollectionFiltered>
+          <MasterETag i:nil="true" />
+          <Name>ShortTextCollection</Name>
+          <OrderFilterIDList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+          <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextCollection/71b8f2db-b475-4264-942a-d31869c15c4a</RelativeLocation>
+          <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        </Categories>
+        <Excerpt>Excerpt</Excerpt>
+        <ID>c4d8d303-4436-4b46-bfc8-d7aa4cae5ad8</ID>
+        <ImageBaseUrl i:nil="true" />
+        <Locations>
+          <CollectionContent />
+          <ID>d7ca17a5-2c2b-49f3-bd9a-bca0953e8072</ID>
+          <IsCollectionFiltered>false</IsCollectionFiltered>
+          <MasterETag i:nil="true" />
+          <Name>ShortTextCollection</Name>
+          <OrderFilterIDList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+          <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextCollection/d7ca17a5-2c2b-49f3-bd9a-bca0953e8072</RelativeLocation>
+          <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        </Locations>
+        <MainSortableText>0</MainSortableText>
+        <MasterETag i:nil="true" />
+        <Name>RenderedNode</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/RenderedNode/c4d8d303-4436-4b46-bfc8-d7aa4cae5ad8</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        <TechnicalSource>TEXTCONTENT</TechnicalSource>
+        <TimestampText i:nil="true" />
+        <Title>Another test content</Title>
+      </RenderedNode>
+      <RenderedNode>
+        <ActualContentUrl>../AaltoGlobalImpact.OIP/TextContent/be753334-5519-433a-b4cf-d6754a3eaf1c</ActualContentUrl>
+        <Authors>
+          <CollectionContent>
+            <ShortTextObject>
+              <Content>Russ Klein</Content>
+              <ID>7c568d00-503e-4258-934a-d6cd9cea95c6</ID>
+              <MasterETag i:nil="true" />
+              <Name>ShortTextObject</Name>
+              <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+              <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextObject/7c568d00-503e-4258-934a-d6cd9cea95c6</RelativeLocation>
+              <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            </ShortTextObject>
+          </CollectionContent>
+          <ID>7dee9da3-0a65-4920-afae-d1572434cacb</ID>
+          <IsCollectionFiltered>false</IsCollectionFiltered>
+          <MasterETag i:nil="true" />
+          <Name>ShortTextCollection</Name>
+          <OrderFilterIDList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+          <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextCollection/7dee9da3-0a65-4920-afae-d1572434cacb</RelativeLocation>
+          <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        </Authors>
+        <Categories>
+          <CollectionContent>
+            <ShortTextObject>
+              <Content>About</Content>
+              <ID>4ebf7084-5541-4310-8499-5dd30ff14c86</ID>
+              <MasterETag i:nil="true" />
+              <Name>ShortTextObject</Name>
+              <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+              <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextObject/4ebf7084-5541-4310-8499-5dd30ff14c86</RelativeLocation>
+              <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            </ShortTextObject>
+            <ShortTextObject>
+              <Content>Team</Content>
+              <ID>f4f5d68d-d86a-4d88-ba66-539e903ab51e</ID>
+              <MasterETag i:nil="true" />
+              <Name>ShortTextObject</Name>
+              <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+              <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextObject/f4f5d68d-d86a-4d88-ba66-539e903ab51e</RelativeLocation>
+              <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            </ShortTextObject>
+          </CollectionContent>
+          <ID>93cc0fcc-5f2b-425d-bd3f-30a677f1ab52</ID>
+          <IsCollectionFiltered>false</IsCollectionFiltered>
+          <MasterETag i:nil="true" />
+          <Name>ShortTextCollection</Name>
+          <OrderFilterIDList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+          <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextCollection/93cc0fcc-5f2b-425d-bd3f-30a677f1ab52</RelativeLocation>
+          <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        </Categories>
+        <Excerpt>Small excerpt of the team.</Excerpt>
+        <ID>3c8d294f-a063-4e8a-aa8c-2085a8e7ccfb</ID>
+        <ImageBaseUrl>../../AaltoGlobalImpact.OIP/MediaContent/91e05491-a2c6-4023-8224-a1737bb91c4b</ImageBaseUrl>
+        <Locations>
+          <CollectionContent />
+          <ID>0fbe08e4-121a-491c-a7f7-9bf8246e8c38</ID>
+          <IsCollectionFiltered>false</IsCollectionFiltered>
+          <MasterETag i:nil="true" />
+          <Name>ShortTextCollection</Name>
+          <OrderFilterIDList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+          <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextCollection/0fbe08e4-121a-491c-a7f7-9bf8246e8c38</RelativeLocation>
+          <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        </Locations>
+        <MainSortableText>0</MainSortableText>
+        <MasterETag i:nil="true" />
+        <Name>RenderedNode</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/RenderedNode/3c8d294f-a063-4e8a-aa8c-2085a8e7ccfb</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        <TechnicalSource>TEXTCONTENT</TechnicalSource>
+        <TimestampText i:nil="true" />
+        <Title>About The Team</Title>
+      </RenderedNode>
+      <RenderedNode>
+        <ActualContentUrl>../AaltoGlobalImpact.OIP/TextContent/810033fa-d4bb-4055-b454-d9c097e28489</ActualContentUrl>
+        <Authors>
+          <CollectionContent>
+            <ShortTextObject>
+              <Content>Russ Klein</Content>
+              <ID>78dd02ea-527e-4627-827e-2b9436c5bcea</ID>
+              <MasterETag i:nil="true" />
+              <Name>ShortTextObject</Name>
+              <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+              <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextObject/78dd02ea-527e-4627-827e-2b9436c5bcea</RelativeLocation>
+              <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            </ShortTextObject>
+          </CollectionContent>
+          <ID>ca219729-2310-43ea-a795-012bd5f5bbdf</ID>
+          <IsCollectionFiltered>false</IsCollectionFiltered>
+          <MasterETag i:nil="true" />
+          <Name>ShortTextCollection</Name>
+          <OrderFilterIDList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+          <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextCollection/ca219729-2310-43ea-a795-012bd5f5bbdf</RelativeLocation>
+          <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        </Authors>
+        <Categories>
+          <CollectionContent>
+            <ShortTextObject>
+              <Content>Developers</Content>
+              <ID>d5736505-5f44-4786-8ed6-d50d4a4c920f</ID>
+              <MasterETag i:nil="true" />
+              <Name>ShortTextObject</Name>
+              <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+              <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextObject/d5736505-5f44-4786-8ed6-d50d4a4c920f</RelativeLocation>
+              <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+            </ShortTextObject>
+          </CollectionContent>
+          <ID>8fb0978a-2c16-4cd3-a363-73a0a84308dc</ID>
+          <IsCollectionFiltered>false</IsCollectionFiltered>
+          <MasterETag i:nil="true" />
+          <Name>ShortTextCollection</Name>
+          <OrderFilterIDList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+          <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextCollection/8fb0978a-2c16-4cd3-a363-73a0a84308dc</RelativeLocation>
+          <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        </Categories>
+        <Excerpt>Do *you* have what it **takes**?</Excerpt>
+        <ID>f454de92-936b-4197-9299-407fd296562e</ID>
+        <ImageBaseUrl>../../AaltoGlobalImpact.OIP/MediaContent/577c7072-b15f-4d48-9fae-9218f5505cd9</ImageBaseUrl>
+        <Locations>
+          <CollectionContent />
+          <ID>24ada682-0319-4e6e-aea0-4c88ffcd7106</ID>
+          <IsCollectionFiltered>false</IsCollectionFiltered>
+          <MasterETag i:nil="true" />
+          <Name>ShortTextCollection</Name>
+          <OrderFilterIDList xmlns:d6p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+          <RelativeLocation>AaltoGlobalImpact.OIP/ShortTextCollection/24ada682-0319-4e6e-aea0-4c88ffcd7106</RelativeLocation>
+          <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        </Locations>
+        <MainSortableText>0</MainSortableText>
+        <MasterETag i:nil="true" />
+        <Name>RenderedNode</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <RelativeLocation>AaltoGlobalImpact.OIP/RenderedNode/f454de92-936b-4197-9299-407fd296562e</RelativeLocation>
+        <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+        <TechnicalSource>TEXTCONTENT</TechnicalSource>
+        <TimestampText i:nil="true" />
+        <Title>Who Should Compete</Title>
+      </RenderedNode>
+    </CollectionContent>
+    <ID>6e9b8599-4521-4ab1-968c-491c92ff54f5</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>RenderedNodeCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>AaltoGlobalImpact.OIP/RenderedNodeCollection/6e9b8599-4521-4ab1-968c-491c92ff54f5</RelativeLocation>
+    <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+  </Nodes>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/fff483ed-f45e-419e-8e3a-99f48d2f4fa8/AaltoGlobalImpact.OIP/NodeSummaryContainer/default</RelativeLocation>
+  <SemanticDomainName>AaltoGlobalImpact.OIP</SemanticDomainName>
+</NodeSummaryContainer>

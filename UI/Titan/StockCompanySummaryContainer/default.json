@@ -1,0 +1,155 @@
+{
+    "ID":"d9e73b18-37e8-4eb5-b2e7-83c1c93e020d",
+    "MasterETag":null,
+    "Name":"NodeSummaryContainer",
+    "NodeSourceActivities":{
+        "CollectionContent":[    ],
+        "ID":"2016da15-c316-4590-9030-bb6524abc85a",
+        "IsCollectionFiltered":false,
+        "MasterETag":null,
+        "Name":"ActivityCollection",
+        "OrderFilterIDList":[
+
+        ],
+        "OwnerID":"00000000-0000-0000-0000-000000000000",
+        "RelativeLocation":"grp\/fff483ed-f45e-419e-8e3a-99f48d2f4fa8\/AaltoGlobalImpact.OIP\/ActivityCollection\/2016da15-c316-4590-9030-bb6524abc85a",
+        "SemanticDomainName":"AaltoGlobalImpact.OIP"
+    },
+    "NodeSourceBlogs":{
+        "CollectionContent":[
+
+        ],
+        "ID":"afe7e133-93ee-4a71-b139-2330fab9dc0f",
+        "IsCollectionFiltered":false,
+        "MasterETag":null,
+        "Name":"BlogCollection",
+        "OrderFilterIDList":[
+
+        ],
+        "OwnerID":"00000000-0000-0000-0000-000000000000",
+        "RelativeLocation":"grp\/fff483ed-f45e-419e-8e3a-99f48d2f4fa8\/AaltoGlobalImpact.OIP\/BlogCollection\/afe7e133-93ee-4a71-b139-2330fab9dc0f",
+        "SemanticDomainName":"AaltoGlobalImpact.OIP"
+    },
+    "NodeSourceTextContent":{
+        "CollectionContent":[
+
+        ],
+        "ID":"c1acb73a-dfcf-42ef-999d-14fbaa3f6b13",
+        "IsCollectionFiltered":false,
+        "MasterETag":null,
+        "Name":"TextContentCollection",
+        "OrderFilterIDList":[
+
+        ],
+        "OwnerID":"00000000-0000-0000-0000-000000000000",
+        "RelativeLocation":"grp\/fff483ed-f45e-419e-8e3a-99f48d2f4fa8\/AaltoGlobalImpact.OIP\/TextContentCollection\/c1acb73a-dfcf-42ef-999d-14fbaa3f6b13",
+        "SemanticDomainName":"AaltoGlobalImpact.OIP"
+    },
+    "Nodes":{
+        "CollectionContent":[
+            {
+                "ID":"3c8d294f-a063-4e8a-aa8c-2085a8e7ccfb",
+                "Symbol":"MSFT",
+                "Name":"Microsoft Corp",
+                "LastPrice":31.19,
+                "Change":-0.689999999999998,
+                "ChangePercent":-2.16436637390213,
+                "Timestamp":"Wed Sep 4 11:32:16 UTC-04:00 2013",
+                "MarketCap":259811327640,
+                "Volume":7102641,
+                "ChangeYTD":26.7097,
+                "ChangePercentYTD":16.7740558673441,
+                "HighPrice":31.465,
+                "LowPrice":31.115,
+                "OpenPrice":31.39,
+                "AlarmPrice":32.00,
+                "IsFavourite":false
+            },
+            {
+                "ID":"3c8d294f-a063-4e8a-aa8c-2085a8e7ccfc",
+                "Symbol":"AAPL",
+                "Name":"Apple Inc",
+                "LastPrice":499.21,
+                "Change":10.63,
+                "ChangePercent":2.1756928241025,
+                "Timestamp":"Wed Sep 4 11:33:52 UTC-04:00 2013",
+                "MarketCap":453530787370,
+                "Volume":366100,
+                "ChangeYTD":532.1729,
+                "ChangePercentYTD":-6.19402077783368,
+                "HighPrice":502.21,
+                "LowPrice":497.41,
+                "OpenPrice":499.56,
+                "AlarmPrice":480.00,
+                "IsFavourite":false
+            },
+            {
+                "ID":"3c8d294f-a063-4e8a-aa8c-2085a8e7ccfd",
+                "Symbol":"GOOG",
+                "Name":"Google Inc",
+                "LastPrice":866.94,
+                "Change":6.56000000000006,
+                "ChangePercent":0.762453799483964,
+                "Timestamp":"Wed Sep 4 11:34:52 UTC-04:00 2013",
+                "MarketCap":288709225740,
+                "Volume":46484,
+                "ChangeYTD":707.38,
+                "ChangePercentYTD":22.5564760100653,
+                "HighPrice":867.67,
+                "LowPrice":855.42,
+                "OpenPrice":860.37,
+                "AlarmPrice":877.00,
+                "IsFavourite":true
+            },
+            {
+                "ID":"3c8d294f-a063-4e8a-aa8c-2085a8e7ccfe",
+                "Symbol":"NAFC",
+                "Name":"Nash Finch Co",
+                "LastPrice":24.39,
+                "Change":0.0199999999999996,
+                "ChangePercent":0.0820681165367265,
+                "Timestamp":"Wed Sep 4 11:16:46 UTC-04:00 2013",
+                "MarketCap":300387240,
+                "Volume":300,
+                "ChangeYTD":21.28,
+                "ChangePercentYTD":14.6146616541353,
+                "HighPrice":24.39,
+                "LowPrice":24.39,
+                "OpenPrice":24.39,
+                "AlarmPrice":22.00,
+                "IsFavourite":true
+            },
+            {
+                "ID":"3c8d294f-a063-4e8a-aa8c-2085a8e7ccff",
+                "Symbol":"A",
+                "Name":"Agilent Technologies Inc",
+                "LastPrice":47.34,
+                "Change":0.410000000000004,
+                "ChangePercent":0.873641593863206,
+                "Timestamp":"Wed Sep 4 11:38:10 UTC-04:00 2013",
+                "MarketCap":15669540000,
+                "Volume":36788,
+                "ChangeYTD":40.94,
+                "ChangePercentYTD":15.6326331216414,
+                "HighPrice":47.45,
+                "LowPrice":46.78,
+                "OpenPrice":47.08,
+                "AlarmPrice":46.00,
+                "IsFavourite":false
+            }
+        ],
+        "ID":"6e9b8599-4521-4ab1-968c-491c92ff54f5",
+        "IsCollectionFiltered":false,
+        "MasterETag":null,
+        "Name":"RenderedNodeCollection",
+        "OrderFilterIDList":[
+
+        ],
+        "OwnerID":"00000000-0000-0000-0000-000000000000",
+        "RelativeLocation":"AaltoGlobalImpact.OIP\/RenderedNodeCollection\/6e9b8599-4521-4ab1-968c-491c92ff54f5",
+        "SemanticDomainName":"AaltoGlobalImpact.OIP"
+    },
+    "OwnerID":"00000000-0000-0000-0000-000000000000",
+    "RelativeLocation":"grp\/fff483ed-f45e-419e-8e3a-99f48d2f4fa8\/AaltoGlobalImpact.OIP\/NodeSummaryContainer\/default",
+    "SemanticDomainName":"AaltoGlobalImpact.OIP"
+}
