@@ -1,59 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- THEBALL-CONTEXT-ROOT-BEGIN:AaltoGlobalImpact.OIP.NodeSummaryContainer -->
-
-
-<!-- THEBALL-CONTEXT-END:* -->
 <head>
 	<meta charset="utf-8">
 	<title>Titan - Stock Exchange Visualizer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Weconomy">
-	<meta name="author" content="Weconomy">
+	<meta name="description" content="Titan">
+	<meta name="author" content="Michael Gurschler">
 
-<!-- Le styles -->
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/protonit-style.css" rel="stylesheet">
-    <link href="../assets/css/responsive.css" rel="stylesheet">
-    <link href="../assets/css/protonit-responsive.css" rel="stylesheet">
-
-
-	<link href="../assets/css/leaflet.css" rel="stylesheet"/>
-<!-- get a fresh copy live at 	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />-->
-	<link rel="stylesheet" href="../assets/css/MarkerCluster.Default.css" />
-	<!--[if lte IE 8]>
-        <link href="../assets/css/leaflet.css" rel="stylesheet"/>
-		<link href="../assets/css/MarkerCluster.Default.ie.css" rel="stylesheet" />
-	<![endif]-->
-
-<!-- Le fav and touch icons -->
-	<link rel="shortcut icon" href="../assets/img/icons/favicon.ico">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/img/icons/favicon-OIP-144x144.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/img/icons/favicon-OIP-114x114.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/img/icons/favicon-OIP-72x72.png">
-	<link rel="apple-touch-icon-precomposed" href="../assets/img/icons/favicon-OIP-57x57.png">
-
-
-<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-<!-- other js -->
-    <!--<link href="http://code.jquery.com/ui/1.10.1/themes/base/jquery-ui.css" rel="stylesheet"> -->
     <script src="../assets/js/jquery-1.9.1.min.js"></script>
-    <!-- or get a fresh copy at <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>-->
-	<script src="../assets/js/jquery.form.js"></script>
-	<!-- get a fresh live version from <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>-->
-	<script src="../assets/js/leaflet.js"></script>
-	<script src="../assets/js/leaflet.markercluster.js"></script>
-    <!--[if lt IE 9]>
-    <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>
-    <![endif]-->
-
-    <!-- Markdown on browser -->
-    <link rel="stylesheet" href="../assets/lib/markdowndeep/mdd_styles.css">
-    <script type="text/javascript" src="../assets/lib/markdowndeep/MarkdownDeepLib.min.js"></script>
 
     <!-- DUST -->
     <script src="../assets/js/dust-full-1.1.1.js"></script>
@@ -85,12 +39,13 @@
 
     <!-- TITAN -->
     <link href="../assets/css/Titan.css" rel="stylesheet" />
+    <script type="text/javascript" src="../assets/js/titan.js"></script>
 </head>
 
 <body class="metrouicss">
 <script src="stockCompanyTemplate_dust.js"></script>
 <script src="stockCompanyDetailPaneTemplate_dust.js"></script>
-
+<script src="portfolioListTemplate_dust.js"></script>
 
 <div class="page">
     <div class="nav-bar">
@@ -104,21 +59,13 @@
             <div class="divider"></div>
 
             <ul class="menu">
+                <li><a onclick="loadAllStockCompanies()">All Stocks</a></li>
+                <li id="portfolioListPlaceHolder" data-role="dropdown">
+                    <img src="../assets/metroui/images/preloader-w8-line-white.gif" width="50px" />
+                </li>
                 <li><a href="/">Favourite Stocks</a></li>
-                <li><a href="/">All Stocks</a></li>
                 <li><a href="/">Ascending Stocks</a></li>
                 <li><a href="/">Descending Stocks</a></li>
-                <!--<li data-role="dropdown">
-                    <a href="#">Scaffolding</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="global.php">Global styles</a></li>
-                        <li><a href="layout.php">Layouts and templates</a></li>
-                        <li><a href="grid.php">Grid system</a></li>
-                        <li class="divider"></li>
-                        <li><a href="responsive.php">Responsive design</a>
-                        </li>
-                    </ul>
-                </li>    -->
             </ul>
         </div>
     </div>
@@ -126,7 +73,8 @@
 
 <div class="page" id="page-index">
     <div class="page-region">
-            <div id="dustPlaceHolder" style="margin-top: 10px;">
+            <h2 id="stockCompaniesTitlePlaceHolder"></h2>
+            <div id="stockCompaniesPlaceHolder" style="margin-top: 10px;">
                 <div style="width: 200px; margin: 0 auto;">
                     <img src="../assets/metroui/images/preloader-w8-line-black.gif" width="200px" />
                 </div>
@@ -148,34 +96,9 @@
 
 <script type="text/javascript">
     $(function () {
-        $.get("../../Titan/StockCompanySummaryContainer/default.json", function (jsonObject) {
-            dust.render("stockCompanyTemplate.dust", jsonObject, function (err, out) {
-                $("#dustPlaceHolder").html(out);
-            });
-        });
+        loadPortfolioList();
+        loadAllStockCompanies();
     });
-
-    dust.helpers.formatDouble = function (chunk, context, bodies, params) {
-        var value = dust.helpers.tap(params.value, chunk, context);
-        return chunk.write(Math.round(value*100)/100);
-    };
-
-    function showStockCompanyDetails(id)
-    {
-        window.location.hash = id;
-        $.get("stockCompanyDetailPane.html", function( content ) {
-            var overlay = $("#overlayPanel");
-            overlay.addClass("overlay");
-            overlay.html(content);
-        }, 'html');
-    }
-
-    function hideDetailPane()
-    {
-        var overlay = $("#overlayPanel");
-        overlay.removeClass("overlay");
-        overlay.html("");
-    }
 </script>
 </body>
 </html>

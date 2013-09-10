@@ -1,0 +1,9 @@
+<a href="#">My Portfolios</a>
+<ul class="dropdown-menu">
+    {#CollectionContent}
+        <li><a onclick="loadStockCompaniesFromPortfolio('{ID}','{PortfolioName}')">{PortfolioName}</a></li>
+    {/CollectionContent}
+    <li class="divider"></li>
+    <li><a onclick="addNewPortfolio('{RelativeLocation}:{ETag}')">Add a new portfolio</a></li>
+</ul>
+

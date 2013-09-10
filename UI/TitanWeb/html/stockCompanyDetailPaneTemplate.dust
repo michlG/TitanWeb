@@ -1,7 +1,7 @@
 <div style="width: 900px; margin-left:auto; margin-right:auto; margin-top: 10px; margin-bottom: 10px;">
     <div style="margin-left: -50px;">
         <a class="back-button big page-back" style="float: left; margin-right: 10px; margin-bottom: 3px; margin-top: -5px;" onclick="hideDetailPane()" />
-        <h2 style="font-weight: bold;">{Symbol} - {Name}</h2>
+        <h2 style="font-weight: bold;">{Symbol} - {CompanyName}</h2>
     </div>
     <div class="tiles clearfix" style="clear: both;">
         <div class="tile bg-color-blueDark">
@@ -14,7 +14,7 @@
                     </tr>
                     <tr>
                         <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{OpenPrice}"/}$</span>
+                            <span class="bigNumbering">{@formatDouble value="{PriceOpen}"/}$</span>
                         </td>
                     </tr>
                 </table>
@@ -30,7 +30,7 @@
                     </tr>
                     <tr>
                         <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{LowPrice}"/}$</span>
+                            <span class="bigNumbering">{@formatDouble value="{PriceLow}"/}$</span>
                         </td>
                     </tr>
                 </table>
@@ -46,7 +46,7 @@
                     </tr>
                     <tr>
                         <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{HighPrice}"/}$</span>
+                            <span class="bigNumbering">{@formatDouble value="{PriceHigh}"/}$</span>
                         </td>
                     </tr>
                 </table>
@@ -62,7 +62,7 @@
                     </tr>
                     <tr>
                         <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{LastPrice}"/}$</span>
+                            <span class="bigNumbering">{@formatDouble value="{PriceActual}"/}$</span>
                         </td>
                     </tr>
                 </table>
@@ -118,8 +118,6 @@
         </div>
         <div {@if cond="'{IsFavourite}' == true"}class="tile bg-color-blueDark"{:else}class="tile bg-color-grayDark"{/if}>
             <div class="tile-content">
-                <form method="post">
-                    <input type="hidden" name="ID" value="{ID}" />
                     <table style="border: none; height: 100%;">
                         <tr>
                             <td style="border: none; text-align: center;">
@@ -128,31 +126,31 @@
                         </tr>
                         <tr>
                             <td style="border: none; text-align: center;">
-                                <button value="ChangeIsFavouriteStatus">Change</button>
+                                <button onclick="setIsFavouriteStatus('{ID}','{IsFavourite}','{RelativeLocation}:{ETag}')">Change</button>
                             </td>
                         </tr>
                     </table>
-                </form>
             </div>
         </div>
-        <div {@if cond="'{AlarmPrice}' == 0"}class="tile bg-color-grayDark"{:else}{@if cond="'{AlarmPrice}' < '{LastPrice}'"}class="tile bg-color-green"{:else}class="tile bg-color-red"{/if}{/if}>
+        <div {@if cond="'{PriceAlarm}' == 0"}class="tile bg-color-grayDark"{:else}{@if cond="'{PriceAlarm}' < '{PriceLast}'"}class="tile bg-color-green"{:else}class="tile bg-color-red"{/if}{/if}>
             <div class="tile-content">
                 <form method="post">
                     <input type="hidden" name="ID" value="{ID}" />
+                    <input type="hidden" name="BoundObject" value="{RelativeLocation}:{MasterETag}" />
                     <table style="border: none; height: 100%;">
                         <tr>
                             <td style="border: none; text-align: center;" colspan="2">
-                                <h3>{@if cond="'{AlarmPrice}' == 0"}No Alarm Price{:else}Alarm Price{/if}</h3>
+                                <h3>{@if cond="'{PriceAlarm}' == 0"}No Alarm Price{:else}Alarm Price{/if}</h3>
                             </td>
                         </tr>
                         <tr>
                             <td style="border: none;">
-                                <input id="AlarmPrice" name="AlarmPrice" value="{AlarmPrice}" type="number" style="width: 100px; height: 40px; font-size: 20px; color: black;"/>
+                                <input id="AlarmPrice" name="AlarmPrice" value="{PriceAlarm}" type="number" style="width: 100px; height: 40px; font-size: 20px; color: black;"/>
                             </td>
                         </tr>
                         <tr>
                             <td style="border: none;">
-                                <button value="SetAlarmPrice">Set</button>
+                                <button onclick="setAlarmPrice('{ID}','{RelativeLocation}:{ETag}')">Set</button>
                             </td>
                         </tr>
                     </table>

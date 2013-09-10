@@ -7,12 +7,18 @@
 
     <script>
         $(function () {
-            var url ="../../Titan/StockCompanies/" + window.location.hash.substring(1) + ".json";
-            window.location.hash="";
-            $.get(url, function (jsonObject) {
-                dust.render("stockCompanyDetailPaneTemplate.dust", jsonObject, function (err, out) {
-                    $("#dustDetailPlaceHolder").html(out);
-                });
+            $.ajax({
+                type: 'GET',
+                url:"../../Titan/StockCompany/" + window.location.hash.substring(1) + ".json",
+                success: function(jsonObject, textStatus, request){
+                    var eTag = request.getResponseHeader("ETag");
+                    if(eTag == null)
+                        eTag = "DefaultUndefined";
+                    jsonObject["ETag"] = eTag;
+                    dust.render("stockCompanyDetailPaneTemplate.dust", jsonObject, function (err, out) {
+                        $("#dustDetailPlaceHolder").html(out);
+                    });
+                }
             });
         });
     </script>

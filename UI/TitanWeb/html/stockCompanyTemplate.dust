@@ -1,41 +1,39 @@
-{#Nodes}
-    <div class="tiles clearfix">
-    {#CollectionContent}
-        <div class="tile double bg-color-blueDark">
-            <div class="tile-content" onclick="showStockCompanyDetails('{ID}');">
-                <table style="border: none;">
-                    <tr>
-                        <th colspan="2">
-                            <h5>{Symbol} - {Name}</h5>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <h3>Open Price</h3>
-                        </td>
-                        <td style="border: none; text-align: center;">
-                            <h3>Last Price</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{OpenPrice}"/}$</span>
-                        </td>
-                        <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{LastPrice}"/}$</span>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            <div {@if cond="'{Change}' < 0"}class="brand bg-color-red"{:else}class="brand bg-color-green"{/if}>
-                <div class="icon" style="float: left; margin-top: 0px;">
-                    <i {@if cond="'{Change}' < 0"}class="icon-chevron-down"{:else}class="icon-chevron-up"{/if} />
-                </div>
-                <h3 style="width: 300px; margin-top:5px; font-weight: bold;">{@formatDouble value="{Change}"/}$ ({@formatDouble value="{ChangePercent}"/}%)</h3>
-                {@if cond="'{LastPrice}' < '{AlarmPrice}'"}<div class="badge bg-color-blue busy"> </div>{/if}
-            </div>
+<div class="tiles clearfix">
+{#CollectionContent}
+    <div class="tile double bg-color-blueDark">
+        <div class="tile-content" onclick="showStockCompanyDetails('{ID}');">
+            <table style="border: none;">
+                <tr>
+                    <th colspan="2">
+                        <h5>{Symbol} - {CompanyName}</h5>
+                    </th>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <h3>Open Price</h3>
+                    </td>
+                    <td style="border: none; text-align: center;">
+                        <h3>Last Price</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <span class="bigNumbering">{@formatDouble value="{PriceOpen}"/}$</span>
+                    </td>
+                    <td style="border: none; text-align: center;">
+                        <span class="bigNumbering">{@formatDouble value="{PriceActual}"/}$</span>
+                    </td>
+                </tr>
+            </table>
         </div>
-    {/CollectionContent}
+        <div {@if cond="'{Change}' < 0"}class="brand bg-color-red"{:else}class="brand bg-color-green"{/if}>
+            <div class="icon" style="float: left; margin-top: 0px;">
+                <i {@if cond="'{Change}' < 0"}class="icon-arrow-down-left"{:else}class="icon-arrow-up-right"{/if} style="margin: 2px;"/>
+            </div>
+            <h3 style="width: 300px; margin-top:5px; font-weight: bold;">{@formatDouble value="{Change}"/}$ ({@formatDouble value="{ChangePercent}"/}%)</h3>
+            {@if cond="'{PriceLast}' < '{PriceAlarm}'"}<div class="badge bg-color-blue busy"> </div>{/if}
+        </div>
     </div>
-{/Nodes}
+{/CollectionContent}
+</div>
 
