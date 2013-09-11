@@ -1,187 +1,181 @@
-<div style="width: 900px; margin-left:auto; margin-right:auto; margin-top: 10px; margin-bottom: 10px;">
-    <div style="margin-left: -50px;">
-        <a class="back-button big page-back" style="float: left; margin-right: 10px; margin-bottom: 3px; margin-top: -5px;" onclick="hideDetailPane()" />
-        <h2 style="font-weight: bold;">{Symbol} - {CompanyName}</h2>
+<div style="margin-left: -50px;">
+    <a class="back-button big page-back" style="float: left; margin-right: 10px; margin-bottom: 3px; margin-top: -5px;" onclick="hideDetailPane()" />
+    <h2 style="font-weight: bold;">{Symbol} - {CompanyName}</h2>
+</div>
+<div class="tiles clearfix" style="clear: both;">
+    <div class="tile bg-color-blueDark">
+        <div class="tile-content">
+            <table style="border: none; height: 100%;">
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <h3>OPEN PRICE</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <span class="bigNumbering">{@formatDouble value="{PriceOpen}"/}$</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
     </div>
-    <div class="tiles clearfix" style="clear: both;">
-        <div class="tile bg-color-blueDark">
-            <div class="tile-content">
+    <div class="tile bg-color-blueDark">
+        <div class="tile-content">
+            <table style="border: none; height: 100%;">
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <h3>LOWEST PRICE</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <span class="bigNumbering">{@formatDouble value="{PriceLow}"/}$</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="tile bg-color-blueDark">
+        <div class="tile-content">
+            <table style="border: none; height: 100%;">
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <h3>HIGHEST PRICE</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <span class="bigNumbering">{@formatDouble value="{PriceHigh}"/}$</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div {@if cond="'{Change}' < 0"}class="tile bg-color-red"{:else}class="tile bg-color-green"{/if}>
+        <div class="tile-content">
+            <table style="border: none; height: 100%;">
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <h3>LAST PRICE</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <span class="bigNumbering">{@formatDouble value="{PriceActual}"/}$</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div {@if cond="'{Change}' < 0"}class="tile bg-color-red"{:else}class="tile bg-color-green"{/if}>
+        <div class="tile-content">
+            <table style="border: none; height: 100%;">
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <h3>CHANGE</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <span class="bigNumbering">{@formatDouble value="{Change}"/}$</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div {@if cond="'{Change}' < 0"}class="tile bg-color-red"{:else}class="tile bg-color-green"{/if}>
+        <div class="tile-content">
+            <table style="border: none; height: 100%;">
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <h3>CHANGE IN PERCENT</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <span class="bigNumbering">{@formatDouble value="{ChangePercent}"/}%</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="tile double bg-color-blueDark">
+        <div class="tile-content">
+            <table style="border: none; height: 100%;">
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <h3>VOLUME OF STOCKS</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none; text-align: center;">
+                        <span class="bigNumbering">{@formatDouble value="{Volume}"/} Units</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div {@if cond="'{IsFavourite}' == 'true'"}class="tile bg-color-blueDark"{:else}class="tile bg-color-grayDark"{/if}>
+        <div class="tile-content">
                 <table style="border: none; height: 100%;">
                     <tr>
                         <td style="border: none; text-align: center;">
-                            <h3>OPEN PRICE</h3>
+                            <h3>{@if cond="'{IsFavourite}' == 'true'"}Your Favourite{:else}Not your Favourite{/if}</h3>
                         </td>
                     </tr>
                     <tr>
                         <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{PriceOpen}"/}$</span>
+                            <button onclick="setIsFavouriteStatus('{ID}','{IsFavourite}')">Change</button>
                         </td>
                     </tr>
                 </table>
+        </div>
+    </div>
+    <div {@if cond="'{PriceAlarm}' == 0"}class="tile bg-color-grayDark"{:else}{@if cond="{PriceActual} >= {PriceAlarm}"}class="tile bg-color-green"{:else}class="tile bg-color-red"{/if}{/if}>
+        <div class="tile-content">
+            <table style="border: none; height: 100%;">
+                <tr>
+                    <td style="border: none; text-align: center;" colspan="2">
+                        <h3>{@if cond="'{PriceAlarm}' == 0"}No Alarm Price{:else}Alarm Price{/if}</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none;">
+                        <input id="AlarmPrice" name="AlarmPrice" value="{PriceAlarm}" type="number" style="width: 100px; height: 40px; font-size: 20px; color: black;"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="border: none;">
+                        <button onclick="setAlarmPrice('{ID}')">Set</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+    <div> <!-- Days Chart -->
+        <h3>Last 30 days</h3>
+        <div class="k-content" style="margin: 10px;">
+            <div class="chart-wrapper">
+                <div id="chartDays" style="height: 200px; width: 100%;"></div>
             </div>
         </div>
-        <div class="tile bg-color-blueDark">
-            <div class="tile-content">
-                <table style="border: none; height: 100%;">
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <h3>LOWEST PRICE</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{PriceLow}"/}$</span>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div class="tile bg-color-blueDark">
-            <div class="tile-content">
-                <table style="border: none; height: 100%;">
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <h3>HIGHEST PRICE</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{PriceHigh}"/}$</span>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div {@if cond="'{Change}' < 0"}class="tile bg-color-red"{:else}class="tile bg-color-green"{/if}>
-            <div class="tile-content">
-                <table style="border: none; height: 100%;">
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <h3>LAST PRICE</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{PriceActual}"/}$</span>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div {@if cond="'{Change}' < 0"}class="tile bg-color-red"{:else}class="tile bg-color-green"{/if}>
-            <div class="tile-content">
-                <table style="border: none; height: 100%;">
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <h3>CHANGE</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{Change}"/}$</span>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div {@if cond="'{Change}' < 0"}class="tile bg-color-red"{:else}class="tile bg-color-green"{/if}>
-            <div class="tile-content">
-                <table style="border: none; height: 100%;">
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <h3>CHANGE IN PERCENT</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{ChangePercent}"/}%</span>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div class="tile double bg-color-blueDark">
-            <div class="tile-content">
-                <table style="border: none; height: 100%;">
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <h3>VOLUME OF STOCKS</h3>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="border: none; text-align: center;">
-                            <span class="bigNumbering">{@formatDouble value="{Volume}"/} Units</span>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <div {@if cond="'{IsFavourite}' == 'true'"}class="tile bg-color-blueDark"{:else}class="tile bg-color-grayDark"{/if}>
-            <div class="tile-content">
-                    <table style="border: none; height: 100%;">
-                        <tr>
-                            <td style="border: none; text-align: center;">
-                                <h3>{@if cond="'{IsFavourite}' == 'true'"}Your Favourite{:else}Not your Favourite{/if}</h3>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="border: none; text-align: center;">
-                                <button onclick="setIsFavouriteStatus('{ID}','{IsFavourite}')">Change</button>
-                            </td>
-                        </tr>
-                    </table>
-            </div>
-        </div>
-        <div {@if cond="'{PriceAlarm}' == 0"}class="tile bg-color-grayDark"{:else}{@if cond="'{PriceAlarm}' < '{PriceLast}'"}class="tile bg-color-green"{:else}class="tile bg-color-red"{/if}{/if}>
-            <div class="tile-content">
-                <form method="post">
-                    <input type="hidden" name="ID" value="{ID}" />
-                    <input type="hidden" name="BoundObject" value="{RelativeLocation}:{MasterETag}" />
-                    <table style="border: none; height: 100%;">
-                        <tr>
-                            <td style="border: none; text-align: center;" colspan="2">
-                                <h3>{@if cond="'{PriceAlarm}' == 0"}No Alarm Price{:else}Alarm Price{/if}</h3>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="border: none;">
-                                <input id="AlarmPrice" name="AlarmPrice" value="{PriceAlarm}" type="number" style="width: 100px; height: 40px; font-size: 20px; color: black;"/>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td style="border: none;">
-                                <button onclick="setAlarmPrice('{ID}')">Set</button>
-                            </td>
-                        </tr>
-                    </table>
-                </form>
-            </div>
-        </div>
-        </div>
-        <div> <!-- Days Chart -->
-            <h3>Last 30 days</h3>
-            <div class="k-content" style="margin: 10px;">
-                <div class="chart-wrapper">
-                    <div id="chartDays" style="height: 200px; width: 100%;"></div>
-                </div>
-            </div>
-        </div>
+    </div>
 
-        <div> <!-- Months Chart -->
-            <h3>Last 12 months</h3>
-            <div class="k-content" style="margin: 10px;">
-                <div class="chart-wrapper">
-                    <div id="chartMonths" style="height: 200px; width: 100%;"></div>
-                </div>
+    <div> <!-- Months Chart -->
+        <h3>Last 12 months</h3>
+        <div class="k-content" style="margin: 10px;">
+            <div class="chart-wrapper">
+                <div id="chartMonths" style="height: 200px; width: 100%;"></div>
             </div>
         </div>
+    </div>
 
-        <div> <!-- Years Chart -->
-            <h3>Last 10 years</h3>
-            <div class="k-content" style="margin: 10px;">
-                <div class="chart-wrapper">
-                    <div id="chartYears" style="height: 200px; width: 100%;"></div>
-                </div>
+    <div> <!-- Years Chart -->
+        <h3>Last 10 years</h3>
+        <div class="k-content" style="margin: 10px;">
+            <div class="chart-wrapper">
+                <div id="chartYears" style="height: 200px; width: 100%;"></div>
             </div>
         </div>
     </div>

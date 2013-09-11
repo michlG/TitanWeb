@@ -2,7 +2,7 @@ function loadPortfolioList()
 {
     $.ajax({
         type: 'GET',
-        url:"../../Titan/PortfolioCollection/default.json",
+        url:"../../Titan/PortfolioCollection/default.json?tmp="+new Date().getTime(),
         cache:false,
         success: function(jsonObject, textStatus, request){
             var eTag = request.getResponseHeader("ETag");
@@ -20,7 +20,7 @@ function loadStockCompaniesFromPortfolio(portfolioId, name)
 {
     $.ajax({
         type: 'GET',
-        url:"../../Titan/Portfolio/" + portfolioId + ".json",
+        url:"../../Titan/Portfolio/" + portfolioId + ".json?tmp="+new Date().getTime(),
         cache:false,
         success: function(jsonObject, textStatus, request){
             var eTag = request.getResponseHeader("ETag");
@@ -29,9 +29,11 @@ function loadStockCompaniesFromPortfolio(portfolioId, name)
             jsonObject["ETag"] = eTag;
             dust.render("stockCompanyTemplate.dust", jsonObject, function (err, out) {
                 var titleString = "Stocks from portfolio: " + name;
+                titleString += "<input type=\"hidden\" id=\"portfolioId\" value=\"" + portfolioId + "\"/>";
+                titleString += "<input type=\"hidden\" id=\"portfolioName\" value=\"" + name + "\"/>";
                 titleString += "<button style=\"margin: 2px\" onclick=\"renamePortfolio('"+portfolioId+"','"+name+"')\">Rename</button>";
                 titleString += "<button style=\"margin: 2px\" onclick=\"deletePortfolio('"+portfolioId+"')\">Delete</button>";
-                titleString += "<button style=\"margin: 2px\" onclick=\"addStockCompanyToPortfolio('"+portfolioId+"')\">Add new stock company</button>";
+                titleString += "<button style=\"margin: 2px\" onclick=\"showEditPortfolioPane('"+portfolioId+"')\">Edit Portfolio</button>";
                 $("#stockCompaniesTitlePlaceHolder").html(titleString);
                 $("#stockCompaniesPlaceHolder").html(out);
             });
@@ -42,7 +44,7 @@ function loadStockCompaniesFromPortfolio(portfolioId, name)
 function loadAllStockCompanies(){
     $.ajax({
         type: 'GET',
-        url:"../../Titan/StockCompanyCollection/default.json",
+        url:"../../Titan/StockCompanyCollection/default.json?tmp="+new Date().getTime(),
         cache:false,
         success: function(jsonObject, textStatus, request){
             var eTag = request.getResponseHeader("ETag");
@@ -72,11 +74,26 @@ function showStockCompanyDetails(id)
     }, 'html');
 }
 
+function showEditPortfolioPane(id)
+{
+    window.location.hash = id;
+    $.get("editPortfolioPane.html", function( content ) {
+        var overlay = $("#overlayPanel");
+        overlay.addClass("overlay");
+        overlay.html(content);
+    }, 'html');
+}
+
 function hideDetailPane()
 {
     var overlay = $("#overlayPanel");
     overlay.removeClass("overlay");
     overlay.html("");
+    var portfolioId=$("#portfolioId").val();
+    if(portfolioId == null || portfolioId == "")
+        loadAllStockCompanies();
+    else
+        loadStockCompaniesFromPortfolio(portfolioId, $("#portfolioName").val());
 }
 
 function setIsFavouriteStatus(id, isFavourite)
@@ -187,15 +204,13 @@ function deletePortfolio(id)
     });
 }
 
-function addStockCompanyToPortfolio(id)
-{
-    var symbol = prompt("Please enter the symbol of the stock company you want to add","MSFT");
-    if(symbol == null || symbol == "")
-        return;
+function addStockCompanyToPortfolioClick(){
+    var portfolioId = window.location.hash.substring(1);
+    var stockCompanyId = $("#stockCompanySelectionBox").val();
     var fd = new FormData();
     fd.append('ExecuteOperation','AddStockCompanyToPortfolio');
-    fd.append('Id', id );
-    fd.append('Symbol', symbol);
+    fd.append('Id', portfolioId );
+    fd.append('StockCompanyId', stockCompanyId);
     $.ajax({
         data: fd,
         cache:false,
@@ -206,4 +221,25 @@ function addStockCompanyToPortfolio(id)
             loadStockCompaniesFromPortfolio(id);
         }
     });
+    hideDetailPane();
+}
+
+function removeStockCompanyFromPortfolioClick(stockCompanyId)
+{
+    var portfolioId = window.location.hash.substring(1);
+    var fd = new FormData();
+    fd.append('ExecuteOperation','RemoveStockCompanyFromPortfolio');
+    fd.append('Id', portfolioId );
+    fd.append('StockCompanyId', stockCompanyId);
+    $.ajax({
+        data: fd,
+        cache:false,
+        processData: false,
+        contentType: false,
+        type: 'POST',
+        success: function(data){
+            showStockCompanyToPortfolioPane(portfolioId);
+        }
+    });
+    hideDetailPane();
 }

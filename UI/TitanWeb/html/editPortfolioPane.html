@@ -1,0 +1,46 @@
+<div style="width: 100%">
+    <div id="editPortfolioAddPlaceHolder">
+        <div style="width: 100px; margin: 0 auto;">
+            <img src="../assets/metroui/images/preloader-w8-cycle-black.gif" width="100px" />
+        </div>
+    </div>
+    <div id="editPortfolioRemovePlaceHolder">
+        <div style="width: 100px; margin: 0 auto;">
+            <img src="../assets/metroui/images/preloader-w8-cycle-black.gif" width="100px" />
+        </div>
+    </div>
+
+    <script>
+        $(function(){
+            $.ajax({
+                type: 'GET',
+                url:"../../Titan/StockCompanyCollection/default.json?tmp="+new Date().getTime(),
+                cache:false,
+                success: function(jsonObject, textStatus, request){
+                    var eTag = request.getResponseHeader("ETag");
+                    if(eTag == null)
+                        eTag = "DefaultUndefined";
+                    jsonObject["ETag"] = eTag;
+                    dust.render("editPortfolioPaneAddTemplate.dust", jsonObject, function (err, out) {
+                        $("#editPortfolioAddPlaceHolder").html(out);
+                    });
+                }
+            });
+
+            $.ajax({
+                type: 'GET',
+                url:"../../Titan/Portfolio/" + window.location.hash.substring(1) + ".json?tmp="+new Date().getTime(),
+                cache:false,
+                success: function(jsonObject, textStatus, request){
+                    var eTag = request.getResponseHeader("ETag");
+                    if(eTag == null)
+                        eTag = "DefaultUndefined";
+                    jsonObject["ETag"] = eTag;
+                    dust.render("editPortfolioPaneRemoveTemplate.dust", jsonObject, function (err, out) {
+                        $("#editPortfolioRemovePlaceHolder").html(out);
+                    });
+                }
+            });
+        });
+    </script>
+</div>

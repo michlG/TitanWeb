@@ -1,0 +1,23 @@
+<div style="width: 900px; margin-left:auto; margin-right:auto; margin-top: 10px; margin-bottom: 10px;">
+    <h2 style="font-weight: bold;">Existing stock companies</h2>
+    <table>
+        <tr>
+            <th>Symbol</th>
+            <th>Company Name</th>
+            <th>Volume</th>
+            <th>Actual Price</th>
+            <th>Change</th>
+            <th>Remove</th>
+        </tr>
+        {#CollectionContent}
+            <tr>
+                <td>{Symbol}</td>
+                <td>{CompanyName}</td>
+                <td>{Volume}</td>
+                <td>{PriceActual}</td>
+                <td>{Change}</td>
+                <td><button onclick="removeStockCompanyFromPortfolioClick('{ID}')">Remove</button></td>
+            </tr>
+        {/CollectionContent}
+    </table>
+</div>

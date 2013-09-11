@@ -31,7 +31,9 @@
                 <i {@if cond="'{Change}' < 0"}class="icon-arrow-down-left"{:else}class="icon-arrow-up-right"{/if} style="margin: 2px;"/>
             </div>
             <h3 style="width: 300px; margin-top:5px; font-weight: bold;">{@formatDouble value="{Change}"/}$ ({@formatDouble value="{ChangePercent}"/}%)</h3>
-            {@if cond="'{PriceLast}' < '{PriceAlarm}'"}<div class="badge bg-color-blue busy"> </div>{/if}
+            {@if cond="{PriceActual} < {PriceAlarm}"}
+                <div class="badge bg-color-blue busy"> </div>
+            {/if}
         </div>
     </div>
 {/CollectionContent}

@@ -1,0 +1,14 @@
+<div style="width: 900px; margin-left:auto; margin-right:auto; margin-top: 10px; margin-bottom: 10px;">
+    <div style="margin-left: -50px;">
+        <a class="back-button big page-back" style="float: left; margin-right: 10px; margin-bottom: 3px; margin-top: -5px;" onclick="hideDetailPane()" />
+        <h2 style="font-weight: bold;">Please select the stock company you want to add to the portfolio</h2>
+    </div>
+    <div class="input-control select">
+        <select id="stockCompanySelectionBox">
+            {#CollectionContent}
+            <option value="{ID}">{Symbol} - {CompanyName}</option>
+            {/CollectionContent}
+        </select>
+    </div>
+    <button onclick="addStockCompanyToPortfolioClick()">Add to portfolio</button>
+</div>
