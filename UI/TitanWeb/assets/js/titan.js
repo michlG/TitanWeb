@@ -3,6 +3,7 @@ function loadPortfolioList()
     $.ajax({
         type: 'GET',
         url:"../../Titan/PortfolioCollection/default.json",
+        cache:false,
         success: function(jsonObject, textStatus, request){
             var eTag = request.getResponseHeader("ETag");
             if(eTag == null)
@@ -20,6 +21,7 @@ function loadStockCompaniesFromPortfolio(portfolioId, name)
     $.ajax({
         type: 'GET',
         url:"../../Titan/Portfolio/" + portfolioId + ".json",
+        cache:false,
         success: function(jsonObject, textStatus, request){
             var eTag = request.getResponseHeader("ETag");
             if(eTag == null)
@@ -27,9 +29,9 @@ function loadStockCompaniesFromPortfolio(portfolioId, name)
             jsonObject["ETag"] = eTag;
             dust.render("stockCompanyTemplate.dust", jsonObject, function (err, out) {
                 var titleString = "Stocks from portfolio: " + name;
-                titleString += "<button style=\"margin: 2px\" onclick=\"renamePortfolio('"+portfolioId+"','"+name+"','" + jsonObject["RelativeLocation"]+":"+jsonObject["ETag"] + "')\">Rename</button>";
-                titleString += "<button style=\"margin: 2px\" onclick=\"deletePortfolio('"+portfolioId+"','" + jsonObject["RelativeLocation"]+":"+jsonObject["ETag"] + "')\">Delete</button>";
-                titleString += "<button style=\"margin: 2px\" onclick=\"addStockCompanyToPortfolio('"+portfolioId+"','"+ jsonObject["RelativeLocation"]+":"+jsonObject["ETag"] +"')\">Add new stock company</button>";
+                titleString += "<button style=\"margin: 2px\" onclick=\"renamePortfolio('"+portfolioId+"','"+name+"')\">Rename</button>";
+                titleString += "<button style=\"margin: 2px\" onclick=\"deletePortfolio('"+portfolioId+"')\">Delete</button>";
+                titleString += "<button style=\"margin: 2px\" onclick=\"addStockCompanyToPortfolio('"+portfolioId+"')\">Add new stock company</button>";
                 $("#stockCompaniesTitlePlaceHolder").html(titleString);
                 $("#stockCompaniesPlaceHolder").html(out);
             });
@@ -41,6 +43,7 @@ function loadAllStockCompanies(){
     $.ajax({
         type: 'GET',
         url:"../../Titan/StockCompanyCollection/default.json",
+        cache:false,
         success: function(jsonObject, textStatus, request){
             var eTag = request.getResponseHeader("ETag");
             if(eTag == null)
@@ -76,40 +79,46 @@ function hideDetailPane()
     overlay.html("");
 }
 
-function setIsFavouriteStatus(id, isFavourite, boundObject)
+function setIsFavouriteStatus(id, isFavourite)
 {
     var fd = new FormData();
-    fd.append('RootSourceAction','SetIsFavouriteStatus');
-    fd.append('BoundObject',boundObject);
+    fd.append('ExecuteOperation','SetIsFavouriteStatus');
     fd.append('Id', id );
+    if(isFavourite == 'true')
+        isFavourite = false;
+    else
+        isFavourite = true;
     fd.append('IsFavourite', isFavourite);
     $.ajax({
         action: '/',
         data: fd,
+        cache:false,
         processData: false,
         contentType: false,
         type: 'POST',
         success: function(data){
-            alert(data);
+            hideDetailPane();
+            showStockCompanyDetails(window.location.hash.substring(1));
         }
     });
 }
 
-function setAlarmPrice(id, boundObject)
+function setAlarmPrice(id)
 {
     var alarmPrice = $("#AlarmPrice").val();
     var fd = new FormData();
-    fd.append('RootSourceAction','SetAlarmPrice');
-    fd.append('BoundObject',boundObject);
+    fd.append('ExecuteOperation','SetAlarmPrice');
     fd.append('Id', id);
     fd.append('AlarmPrice', alarmPrice);
     $.ajax({
         data: fd,
+        cache:false,
         processData: false,
         contentType: false,
         type: 'POST',
         success: function(data){
-            alert(data);
+            hideDetailPane();
+            showStockCompanyDetails(window.location.hash.substring(1));
         }
     });
 }
@@ -121,73 +130,75 @@ function addNewPortfolio()
         return;
 
     var fd = new FormData();
-    fd.append('RootSourceAction','AddOrUpdatePortfolio')
+    fd.append('ExecuteOperation','AddOrUpdatePortfolio');
     fd.append('Id', '' );
     fd.append('Name', name);
     $.ajax({
         data: fd,
+        cache:false,
         processData: false,
         contentType: false,
         type: 'POST',
         success: function(data){
-            alert(data);
+            loadPortfolioList();
         }
     });
 }
 
-function renamePortfolio(id, name, boundObject)
+function renamePortfolio(id, name)
 {
     var newName = prompt("Please enter the new name of the portfolio",name);
     if(newName == null || newName == "")
         return;
     var fd = new FormData();
-    fd.append('RootSourceAction','AddOrUpdatePortfolio');
-    fd.append('BoundObject', boundObject);
-    fd.append( 'Id', id );
+    fd.append('ExecuteOperation','AddOrUpdatePortfolio');
+    fd.append('Id', id );
     fd.append('Name', newName);
     $.ajax({
         data: fd,
+        cache:false,
         processData: false,
         contentType: false,
         type: 'POST',
         success: function(data){
-            alert(data);
+            loadPortfolioList();
+            loadStockCompaniesFromPortfolio(id);
         }
     });
 }
 
-function deletePortfolio(id, boundObject)
+function deletePortfolio(id)
 {
     if(!confirm("Are you sure that you want to delete the selected portfolio?"))
         return;
     var fd = new FormData();
-    fd.append('RootSourceAction','DeletePortfolio');
-    fd.append('BoundObject',boundObject);
+    fd.append('ExecuteOperation','DeletePortfolio');
     fd.append('Id', id );
     $.ajax({
         data: fd,
+        cache:false,
         processData: false,
         contentType: false,
         type: 'POST',
         success: function(data){
-            loadPortfolioList(id);
+            loadPortfolioList();
             loadAllStockCompanies();
         }
     });
 }
 
-function addStockCompanyToPortfolio(id, boundObject)
+function addStockCompanyToPortfolio(id)
 {
     var symbol = prompt("Please enter the symbol of the stock company you want to add","MSFT");
     if(symbol == null || symbol == "")
         return;
     var fd = new FormData();
-    fd.append('RootSourceAction','AddStockCompanyToPortfolio');
-    fd.append('BoundObject', boundObject);
+    fd.append('ExecuteOperation','AddStockCompanyToPortfolio');
     fd.append('Id', id );
     fd.append('Symbol', symbol);
     $.ajax({
         data: fd,
+        cache:false,
         processData: false,
         contentType: false,
         type: 'POST',

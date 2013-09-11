@@ -116,17 +116,17 @@
                 </table>
             </div>
         </div>
-        <div {@if cond="'{IsFavourite}' == true"}class="tile bg-color-blueDark"{:else}class="tile bg-color-grayDark"{/if}>
+        <div {@if cond="'{IsFavourite}' == 'true'"}class="tile bg-color-blueDark"{:else}class="tile bg-color-grayDark"{/if}>
             <div class="tile-content">
                     <table style="border: none; height: 100%;">
                         <tr>
                             <td style="border: none; text-align: center;">
-                                <h3>{@if cond="'{IsFavourite}' == 1"}Your Favourite{:else}Not your Favourite{/if}</h3>
+                                <h3>{@if cond="'{IsFavourite}' == 'true'"}Your Favourite{:else}Not your Favourite{/if}</h3>
                             </td>
                         </tr>
                         <tr>
                             <td style="border: none; text-align: center;">
-                                <button onclick="setIsFavouriteStatus('{ID}','{IsFavourite}','{RelativeLocation}:{ETag}')">Change</button>
+                                <button onclick="setIsFavouriteStatus('{ID}','{IsFavourite}')">Change</button>
                             </td>
                         </tr>
                     </table>
@@ -150,7 +150,7 @@
                         </tr>
                         <tr>
                             <td style="border: none;">
-                                <button onclick="setAlarmPrice('{ID}','{RelativeLocation}:{ETag}')">Set</button>
+                                <button onclick="setAlarmPrice('{ID}')">Set</button>
                             </td>
                         </tr>
                     </table>
