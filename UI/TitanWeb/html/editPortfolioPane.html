@@ -11,36 +11,34 @@
     </div>
 
     <script>
-        $(function(){
-            $.ajax({
-                type: 'GET',
-                url:"../../Titan/StockCompanyCollection/default.json?tmp="+new Date().getTime(),
-                cache:false,
-                success: function(jsonObject, textStatus, request){
-                    var eTag = request.getResponseHeader("ETag");
-                    if(eTag == null)
-                        eTag = "DefaultUndefined";
-                    jsonObject["ETag"] = eTag;
-                    dust.render("editPortfolioPaneAddTemplate.dust", jsonObject, function (err, out) {
-                        $("#editPortfolioAddPlaceHolder").html(out);
-                    });
-                }
-            });
+        $.ajax({
+            type: 'GET',
+            url:"../../Titan/StockCompanyCollection/MasterCollection.json?tmp="+new Date().getTime(),
+            cache:false,
+            success: function(jsonObject, textStatus, request){
+                var eTag = request.getResponseHeader("ETag");
+                if(eTag == null)
+                    eTag = "DefaultUndefined";
+                jsonObject["ETag"] = eTag;
+                dust.render("editPortfolioPaneAddTemplate.dust", jsonObject, function (err, out) {
+                    $("#editPortfolioAddPlaceHolder").html(out);
+                });
+            }
+        });
 
-            $.ajax({
-                type: 'GET',
-                url:"../../Titan/Portfolio/" + window.location.hash.substring(1) + ".json?tmp="+new Date().getTime(),
-                cache:false,
-                success: function(jsonObject, textStatus, request){
-                    var eTag = request.getResponseHeader("ETag");
-                    if(eTag == null)
-                        eTag = "DefaultUndefined";
-                    jsonObject["ETag"] = eTag;
-                    dust.render("editPortfolioPaneRemoveTemplate.dust", jsonObject, function (err, out) {
-                        $("#editPortfolioRemovePlaceHolder").html(out);
-                    });
-                }
-            });
+        $.ajax({
+            type: 'GET',
+            url:"../../Titan/StockCompanyCollection/Portfolios/" + window.location.hash.substring(1) + ".json?tmp="+new Date().getTime(),
+            cache:false,
+            success: function(jsonObject, textStatus, request){
+                var eTag = request.getResponseHeader("ETag");
+                if(eTag == null)
+                    eTag = "DefaultUndefined";
+                jsonObject["ETag"] = eTag;
+                dust.render("editPortfolioPaneRemoveTemplate.dust", jsonObject, function (err, out) {
+                    $("#editPortfolioRemovePlaceHolder").html(out);
+                });
+            }
         });
     </script>
 </div>

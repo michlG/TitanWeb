@@ -2,7 +2,7 @@ function loadPortfolioList()
 {
     $.ajax({
         type: 'GET',
-        url:"../../Titan/PortfolioCollection/default.json?tmp="+new Date().getTime(),
+        url:"../../Titan/PortfolioCollection/MasterCollection.json?tmp="+new Date().getTime(),
         cache:false,
         success: function(jsonObject, textStatus, request){
             var eTag = request.getResponseHeader("ETag");
@@ -20,9 +20,10 @@ function loadStockCompaniesFromPortfolio(portfolioId, name)
 {
     $.ajax({
         type: 'GET',
-        url:"../../Titan/Portfolio/" + portfolioId + ".json?tmp="+new Date().getTime(),
+        url:"../../Titan/StockCompanyCollection/Portfolios/" + portfolioId + ".json?tmp="+new Date().getTime(),
         cache:false,
         success: function(jsonObject, textStatus, request){
+            window.location.hash = portfolioId;
             var eTag = request.getResponseHeader("ETag");
             if(eTag == null)
                 eTag = "DefaultUndefined";
@@ -31,9 +32,9 @@ function loadStockCompaniesFromPortfolio(portfolioId, name)
                 var titleString = "Stocks from portfolio: " + name;
                 titleString += "<input type=\"hidden\" id=\"portfolioId\" value=\"" + portfolioId + "\"/>";
                 titleString += "<input type=\"hidden\" id=\"portfolioName\" value=\"" + name + "\"/>";
-                titleString += "<button style=\"margin: 2px\" onclick=\"renamePortfolio('"+portfolioId+"','"+name+"')\">Rename</button>";
-                titleString += "<button style=\"margin: 2px\" onclick=\"deletePortfolio('"+portfolioId+"')\">Delete</button>";
-                titleString += "<button style=\"margin: 2px\" onclick=\"showEditPortfolioPane('"+portfolioId+"')\">Edit Portfolio</button>";
+                titleString += "<button style=\"margin: 2px\" onclick=\"renamePortfolio('"+name+"')\">Rename</button>";
+                titleString += "<button style=\"margin: 2px\" onclick=\"deletePortfolio()\">Delete</button>";
+                titleString += "<button style=\"margin: 2px\" onclick=\"showEditPortfolioPane()\">Edit Portfolio</button>";
                 $("#stockCompaniesTitlePlaceHolder").html(titleString);
                 $("#stockCompaniesPlaceHolder").html(out);
             });
@@ -44,7 +45,7 @@ function loadStockCompaniesFromPortfolio(portfolioId, name)
 function loadAllStockCompanies(){
     $.ajax({
         type: 'GET',
-        url:"../../Titan/StockCompanyCollection/default.json?tmp="+new Date().getTime(),
+        url:"../../Titan/StockCompanyCollection/MasterCollection.json?tmp="+new Date().getTime(),
         cache:false,
         success: function(jsonObject, textStatus, request){
             var eTag = request.getResponseHeader("ETag");
@@ -74,9 +75,8 @@ function showStockCompanyDetails(id)
     }, 'html');
 }
 
-function showEditPortfolioPane(id)
+function showEditPortfolioPane()
 {
-    window.location.hash = id;
     $.get("editPortfolioPane.html", function( content ) {
         var overlay = $("#overlayPanel");
         overlay.addClass("overlay");
@@ -106,6 +106,7 @@ function setIsFavouriteStatus(id, isFavourite)
     else
         isFavourite = true;
     fd.append('IsFavourite', isFavourite);
+    showLoading();
     $.ajax({
         action: '/',
         data: fd,
@@ -114,8 +115,11 @@ function setIsFavouriteStatus(id, isFavourite)
         contentType: false,
         type: 'POST',
         success: function(data){
-            hideDetailPane();
-            showStockCompanyDetails(window.location.hash.substring(1));
+            setTimeout(function(){
+                hideDetailPane();
+                showStockCompanyDetails(window.location.hash.substring(1));
+                hideLoading();
+            }, 500);
         }
     });
 }
@@ -127,6 +131,7 @@ function setAlarmPrice(id)
     fd.append('ExecuteOperation','SetAlarmPrice');
     fd.append('Id', id);
     fd.append('AlarmPrice', alarmPrice);
+    showLoading();
     $.ajax({
         data: fd,
         cache:false,
@@ -134,8 +139,11 @@ function setAlarmPrice(id)
         contentType: false,
         type: 'POST',
         success: function(data){
-            hideDetailPane();
-            showStockCompanyDetails(window.location.hash.substring(1));
+            setTimeout(function(){
+                hideDetailPane();
+                showStockCompanyDetails(window.location.hash.substring(1));
+                hideLoading();
+            }, 500);
         }
     });
 }
@@ -150,6 +158,7 @@ function addNewPortfolio()
     fd.append('ExecuteOperation','AddOrUpdatePortfolio');
     fd.append('Id', '' );
     fd.append('Name', name);
+    showLoading();
     $.ajax({
         data: fd,
         cache:false,
@@ -157,20 +166,24 @@ function addNewPortfolio()
         contentType: false,
         type: 'POST',
         success: function(data){
-            loadPortfolioList();
+            setTimeout(function(){
+                loadPortfolioList();
+                hideLoading();
+            }, 500);
         }
     });
 }
 
-function renamePortfolio(id, name)
+function renamePortfolio(name)
 {
     var newName = prompt("Please enter the new name of the portfolio",name);
     if(newName == null || newName == "")
         return;
     var fd = new FormData();
     fd.append('ExecuteOperation','AddOrUpdatePortfolio');
-    fd.append('Id', id );
+    fd.append('Id', window.location.hash.substring(1));
     fd.append('Name', newName);
+    showLoading();
     $.ajax({
         data: fd,
         cache:false,
@@ -178,19 +191,23 @@ function renamePortfolio(id, name)
         contentType: false,
         type: 'POST',
         success: function(data){
-            loadPortfolioList();
-            loadStockCompaniesFromPortfolio(id);
+            setTimeout(function(){
+                loadPortfolioList();
+                loadStockCompaniesFromPortfolio(window.location.hash.substring(1), newName);
+                hideLoading();
+            }, 500);
         }
     });
 }
 
-function deletePortfolio(id)
+function deletePortfolio()
 {
     if(!confirm("Are you sure that you want to delete the selected portfolio?"))
         return;
     var fd = new FormData();
     fd.append('ExecuteOperation','DeletePortfolio');
-    fd.append('Id', id );
+    fd.append('Id', window.location.hash.substring(1));
+    showLoading();
     $.ajax({
         data: fd,
         cache:false,
@@ -198,19 +215,22 @@ function deletePortfolio(id)
         contentType: false,
         type: 'POST',
         success: function(data){
-            loadPortfolioList();
-            loadAllStockCompanies();
+            setTimeout(function(){
+                loadPortfolioList();
+                loadAllStockCompanies();
+                hideLoading();
+            }, 500);
         }
     });
 }
 
 function addStockCompanyToPortfolioClick(){
-    var portfolioId = window.location.hash.substring(1);
     var stockCompanyId = $("#stockCompanySelectionBox").val();
     var fd = new FormData();
     fd.append('ExecuteOperation','AddStockCompanyToPortfolio');
-    fd.append('Id', portfolioId );
+    fd.append('Id', window.location.hash.substring(1));
     fd.append('StockCompanyId', stockCompanyId);
+    showLoading();
     $.ajax({
         data: fd,
         cache:false,
@@ -218,19 +238,21 @@ function addStockCompanyToPortfolioClick(){
         contentType: false,
         type: 'POST',
         success: function(data){
-            loadStockCompaniesFromPortfolio(id);
+            setTimeout(function(){
+                loadStockCompaniesFromPortfolio(window.location.hash.substring(1), $('#portfolioName').val());
+                hideLoading();
+            }, 500);
         }
     });
-    hideDetailPane();
 }
 
 function removeStockCompanyFromPortfolioClick(stockCompanyId)
 {
-    var portfolioId = window.location.hash.substring(1);
     var fd = new FormData();
     fd.append('ExecuteOperation','RemoveStockCompanyFromPortfolio');
-    fd.append('Id', portfolioId );
+    fd.append('Id', window.location.hash.substring(1));
     fd.append('StockCompanyId', stockCompanyId);
+    showLoading();
     $.ajax({
         data: fd,
         cache:false,
@@ -238,8 +260,25 @@ function removeStockCompanyFromPortfolioClick(stockCompanyId)
         contentType: false,
         type: 'POST',
         success: function(data){
-            showStockCompanyToPortfolioPane(portfolioId);
+            setTimeout(function(){
+                showEditPortfolioPane();
+                hideLoading();
+            }, 500);
         }
     });
-    hideDetailPane();
+}
+
+var _lastOverlayCode;
+function showLoading()
+{
+    _lastOverlayCode = $('#overlayPanel').html();
+    $('#overlayPanel').html('<div style="width: 200px; margin-left: auto; margin-right: auto; margin-top:50px;"><img src="../assets/metroui/images/preloader-w8-cycle-black.gif" width="200px" height="200px" /></div>');
+    $('#overlayPanel').addClass("overlay");
+}
+
+function hideLoading()
+{
+    $('#overlayPanel').html(_lastOverlayCode);
+    if(_lastOverlayCode.length < 10)
+        $('#overlayPanel').removeClass("overlay");
 }
