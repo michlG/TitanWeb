@@ -28,13 +28,10 @@
 
         $.ajax({
             type: 'GET',
-            url:"../../Titan/StockCompanyCollection/Portfolios/" + window.location.hash.substring(1) + ".json?tmp="+new Date().getTime(),
+            url:"../../Titan/Portfolio/" + window.location.hash.substring(1) + ".json?tmp="+new Date().getTime(),
             cache:false,
             success: function(jsonObject, textStatus, request){
-                var eTag = request.getResponseHeader("ETag");
-                if(eTag == null)
-                    eTag = "DefaultUndefined";
-                jsonObject["ETag"] = eTag;
+                jsonObject = jsonObject["StockCompanies"];
                 dust.render("editPortfolioPaneRemoveTemplate.dust", jsonObject, function (err, out) {
                     $("#editPortfolioRemovePlaceHolder").html(out);
                 });

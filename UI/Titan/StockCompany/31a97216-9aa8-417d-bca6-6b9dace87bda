@@ -1,0 +1,21 @@
+﻿<StockCompany xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Titan">
+  <Change>10.63</Change>
+  <ChangePercent>2.17</ChangePercent>
+  <ChangePercentYTD>-6.3923</ChangePercentYTD>
+  <ChangeYTD>532.7243</ChangeYTD>
+  <CompanyName>Apple Inc</CompanyName>
+  <ID>31a97216-9aa8-417d-bca6-6b9dace87bda</ID>
+  <IsFavourite>false</IsFavourite>
+  <MasterETag i:nil="true" />
+  <Name>StockCompany</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <PriceActual>499.21</PriceActual>
+  <PriceAlarm>400</PriceAlarm>
+  <PriceHigh>502.31</PriceHigh>
+  <PriceLow>497.34</PriceLow>
+  <PriceOpen>499.56</PriceOpen>
+  <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/31a97216-9aa8-417d-bca6-6b9dace87bda</RelativeLocation>
+  <SemanticDomainName>Titan</SemanticDomainName>
+  <Symbol>AAPL</Symbol>
+  <Volume>366100</Volume>
+</StockCompany>

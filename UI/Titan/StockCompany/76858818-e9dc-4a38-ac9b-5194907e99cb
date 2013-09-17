@@ -1,0 +1,21 @@
+﻿<StockCompany xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Titan">
+  <Change>6.561</Change>
+  <ChangePercent>0.7625</ChangePercent>
+  <ChangePercentYTD>22.5564</ChangePercentYTD>
+  <ChangeYTD>707.38</ChangeYTD>
+  <CompanyName>Google Inc</CompanyName>
+  <ID>76858818-e9dc-4a38-ac9b-5194907e99cb</ID>
+  <IsFavourite>true</IsFavourite>
+  <MasterETag i:nil="true" />
+  <Name>StockCompany</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <PriceActual>866.94</PriceActual>
+  <PriceAlarm>60</PriceAlarm>
+  <PriceHigh>867.67</PriceHigh>
+  <PriceLow>855.43</PriceLow>
+  <PriceOpen>860.37</PriceOpen>
+  <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/76858818-e9dc-4a38-ac9b-5194907e99cb</RelativeLocation>
+  <SemanticDomainName>Titan</SemanticDomainName>
+  <Symbol>GOOG</Symbol>
+  <Volume>46484</Volume>
+</StockCompany>

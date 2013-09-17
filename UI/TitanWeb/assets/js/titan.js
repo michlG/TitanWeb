@@ -1,3 +1,5 @@
+var filterMode = "";
+
 function loadPortfolioList()
 {
     $.ajax({
@@ -20,10 +22,11 @@ function loadStockCompaniesFromPortfolio(portfolioId, name)
 {
     $.ajax({
         type: 'GET',
-        url:"../../Titan/StockCompanyCollection/Portfolios/" + portfolioId + ".json?tmp="+new Date().getTime(),
+        url:"../../Titan/Portfolio/" + portfolioId + ".json?tmp="+new Date().getTime(),
         cache:false,
         success: function(jsonObject, textStatus, request){
             window.location.hash = portfolioId;
+            jsonObject = jsonObject["StockCompanies"];
             var eTag = request.getResponseHeader("ETag");
             if(eTag == null)
                 eTag = "DefaultUndefined";
@@ -52,6 +55,16 @@ function loadAllStockCompanies(){
             if(eTag == null)
                 eTag = "DefaultUndefined";
             jsonObject["ETag"] = eTag;
+            jsonObject["CollectionContent"] = jQuery.grep(jsonObject["CollectionContent"], function( a ) {
+                if(filterMode == null || filterMode == "" || filterMode=="all")
+                    return true;
+                if(filterMode == "Favourites")
+                    return a["IsFavourite"] == true;
+                if(filterMode == "Ascending")
+                    return a["Change"] > 0;
+                if(filterMode == "Descending")
+                    return a["Change"] < 0;
+            });
             dust.render("stockCompanyTemplate.dust", jsonObject, function (err, out) {
                 $("#stockCompaniesTitlePlaceHolder").html("All stocks");
                 $("#stockCompaniesPlaceHolder").html(out);
@@ -266,6 +279,12 @@ function removeStockCompanyFromPortfolioClick(stockCompanyId)
             }, 500);
         }
     });
+}
+
+function setNewFilter(filter)
+{
+    filterMode = filter;
+    loadAllStockCompanies();
 }
 
 var _lastOverlayCode;

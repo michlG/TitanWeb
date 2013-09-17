@@ -1,0 +1,11 @@
+﻿<StockCompanyCollection xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Titan">
+  <CollectionContent />
+  <ID>90737d00-7a95-4fee-bf7d-e2445d880441</ID>
+  <IsCollectionFiltered>false</IsCollectionFiltered>
+  <MasterETag i:nil="true" />
+  <Name>StockCompanyCollection</Name>
+  <OrderFilterIDList xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompanyCollection/90737d00-7a95-4fee-bf7d-e2445d880441</RelativeLocation>
+  <SemanticDomainName>Titan</SemanticDomainName>
+</StockCompanyCollection>

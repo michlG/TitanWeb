@@ -61,13 +61,13 @@
             <div class="divider"></div>
 
             <ul class="menu">
-                <li><a onclick="loadAllStockCompanies()">All Stocks</a></li>
+                <li><a onclick="setNewFilter('all')" style="cursor: pointer">All Stocks</a></li>
                 <li id="portfolioListPlaceHolder" data-role="dropdown">
                     <img src="../assets/metroui/images/preloader-w8-line-white.gif" width="50px" />
                 </li>
-                <li><a href="/">Favourite Stocks</a></li>
-                <li><a href="/">Ascending Stocks</a></li>
-                <li><a href="/">Descending Stocks</a></li>
+                <li><a onclick="setNewFilter('Favourites')" style="cursor: pointer">Favourite Stocks</a></li>
+                <li><a onclick="setNewFilter('Ascending')" style="cursor: pointer">Ascending Stocks</a></li>
+                <li><a onclick="setNewFilter('Descending')" style="cursor: pointer">Descending Stocks</a></li>
             </ul>
         </div>
     </div>

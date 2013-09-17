@@ -1,0 +1,84 @@
+﻿<Portfolio xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Titan">
+  <ID>1d5b0913-d9ae-460c-8218-86e1e5f265f9</ID>
+  <MasterETag i:nil="true" />
+  <Name>Portfolio</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <PortfolioName>Work</PortfolioName>
+  <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/Portfolio/1d5b0913-d9ae-460c-8218-86e1e5f265f9</RelativeLocation>
+  <SemanticDomainName>Titan</SemanticDomainName>
+  <StockCompanies>
+    <CollectionContent>
+      <StockCompany>
+        <Change>-0.689</Change>
+        <ChangePercent>-2.16</ChangePercent>
+        <ChangePercentYTD>16.7741</ChangePercentYTD>
+        <ChangeYTD>26.7097</ChangeYTD>
+        <CompanyName>Microsoft Corp.</CompanyName>
+        <ID>67ea9667-1642-4207-bfe3-208059311402</ID>
+        <IsFavourite>true</IsFavourite>
+        <MasterETag>"0x8D081AD48F0A5D2"</MasterETag>
+        <Name>StockCompany</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <PriceActual>31.19</PriceActual>
+        <PriceAlarm>50</PriceAlarm>
+        <PriceHigh>31.465</PriceHigh>
+        <PriceLow>31.115</PriceLow>
+        <PriceOpen>31.39</PriceOpen>
+        <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/67ea9667-1642-4207-bfe3-208059311402</RelativeLocation>
+        <SemanticDomainName>Titan</SemanticDomainName>
+        <Symbol>MSFT</Symbol>
+        <Volume>7102641</Volume>
+      </StockCompany>
+      <StockCompany>
+        <Change>6.561</Change>
+        <ChangePercent>0.7625</ChangePercent>
+        <ChangePercentYTD>22.5564</ChangePercentYTD>
+        <ChangeYTD>707.38</ChangeYTD>
+        <CompanyName>Google Inc</CompanyName>
+        <ID>76858818-e9dc-4a38-ac9b-5194907e99cb</ID>
+        <IsFavourite>true</IsFavourite>
+        <MasterETag>"0x8D081BC5ECAADFC"</MasterETag>
+        <Name>StockCompany</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <PriceActual>866.94</PriceActual>
+        <PriceAlarm>60</PriceAlarm>
+        <PriceHigh>867.67</PriceHigh>
+        <PriceLow>855.43</PriceLow>
+        <PriceOpen>860.37</PriceOpen>
+        <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/76858818-e9dc-4a38-ac9b-5194907e99cb</RelativeLocation>
+        <SemanticDomainName>Titan</SemanticDomainName>
+        <Symbol>GOOG</Symbol>
+        <Volume>46484</Volume>
+      </StockCompany>
+      <StockCompany>
+        <Change>10.63</Change>
+        <ChangePercent>2.17</ChangePercent>
+        <ChangePercentYTD>-6.3923</ChangePercentYTD>
+        <ChangeYTD>532.7243</ChangeYTD>
+        <CompanyName>Apple Inc</CompanyName>
+        <ID>31a97216-9aa8-417d-bca6-6b9dace87bda</ID>
+        <IsFavourite>false</IsFavourite>
+        <MasterETag>"0x8D081BC761A60DE"</MasterETag>
+        <Name>StockCompany</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <PriceActual>499.21</PriceActual>
+        <PriceAlarm>400</PriceAlarm>
+        <PriceHigh>502.31</PriceHigh>
+        <PriceLow>497.34</PriceLow>
+        <PriceOpen>499.56</PriceOpen>
+        <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/31a97216-9aa8-417d-bca6-6b9dace87bda</RelativeLocation>
+        <SemanticDomainName>Titan</SemanticDomainName>
+        <Symbol>AAPL</Symbol>
+        <Volume>366100</Volume>
+      </StockCompany>
+    </CollectionContent>
+    <ID>30517ec7-a593-41e8-80de-0b69fc3bbad6</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>StockCompanyCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompanyCollection/30517ec7-a593-41e8-80de-0b69fc3bbad6</RelativeLocation>
+    <SemanticDomainName>Titan</SemanticDomainName>
+  </StockCompanies>
+</Portfolio>

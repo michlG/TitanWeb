@@ -1,0 +1,42 @@
+﻿<Portfolio xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Titan">
+  <ID>d3d7511b-63b2-4eed-b483-64896f4bca8a</ID>
+  <MasterETag i:nil="true" />
+  <Name>Portfolio</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <PortfolioName>Public</PortfolioName>
+  <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/Portfolio/d3d7511b-63b2-4eed-b483-64896f4bca8a</RelativeLocation>
+  <SemanticDomainName>Titan</SemanticDomainName>
+  <StockCompanies>
+    <CollectionContent>
+      <StockCompany>
+        <Change>0.410000004</Change>
+        <ChangePercent>0.87364159</ChangePercent>
+        <ChangePercentYTD>15.6325</ChangePercentYTD>
+        <ChangeYTD>40.941</ChangeYTD>
+        <CompanyName>Agilent Technologies Inc</CompanyName>
+        <ID>0fd741c7-8b8c-4c56-9325-294e6e16d62d</ID>
+        <IsFavourite>true</IsFavourite>
+        <MasterETag i:nil="true" />
+        <Name>StockCompany</Name>
+        <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+        <PriceActual>47.31</PriceActual>
+        <PriceAlarm>48</PriceAlarm>
+        <PriceHigh>47.45</PriceHigh>
+        <PriceLow>46.78</PriceLow>
+        <PriceOpen>47.08</PriceOpen>
+        <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0fd741c7-8b8c-4c56-9325-294e6e16d62d</RelativeLocation>
+        <SemanticDomainName>Titan</SemanticDomainName>
+        <Symbol>A</Symbol>
+        <Volume>36788</Volume>
+      </StockCompany>
+    </CollectionContent>
+    <ID>90737d00-7a95-4fee-bf7d-e2445d880441</ID>
+    <IsCollectionFiltered>false</IsCollectionFiltered>
+    <MasterETag i:nil="true" />
+    <Name>StockCompanyCollection</Name>
+    <OrderFilterIDList xmlns:d3p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+    <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompanyCollection/90737d00-7a95-4fee-bf7d-e2445d880441</RelativeLocation>
+    <SemanticDomainName>Titan</SemanticDomainName>
+  </StockCompanies>
+</Portfolio>

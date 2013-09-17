@@ -1,0 +1,21 @@
+﻿<StockCompany xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Titan">
+  <Change>-0.689</Change>
+  <ChangePercent>-2.16</ChangePercent>
+  <ChangePercentYTD>16.7741</ChangePercentYTD>
+  <ChangeYTD>26.7097</ChangeYTD>
+  <CompanyName>Microsoft Corp.</CompanyName>
+  <ID>67ea9667-1642-4207-bfe3-208059311402</ID>
+  <IsFavourite>true</IsFavourite>
+  <MasterETag i:nil="true" />
+  <Name>StockCompany</Name>
+  <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+  <PriceActual>31.19</PriceActual>
+  <PriceAlarm>50</PriceAlarm>
+  <PriceHigh>31.465</PriceHigh>
+  <PriceLow>31.115</PriceLow>
+  <PriceOpen>31.39</PriceOpen>
+  <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/67ea9667-1642-4207-bfe3-208059311402</RelativeLocation>
+  <SemanticDomainName>Titan</SemanticDomainName>
+  <Symbol>MSFT</Symbol>
+  <Volume>7102641</Volume>
+</StockCompany>
