@@ -9,25 +9,25 @@
   <StockCompanies>
     <CollectionContent>
       <StockCompany>
-        <Change>0.410000004</Change>
-        <ChangePercent>0.87364159</ChangePercent>
-        <ChangePercentYTD>15.6325</ChangePercentYTD>
-        <ChangeYTD>40.941</ChangeYTD>
+        <Change>0.140000000000001</Change>
+        <ChangePercent>0.287238407878543</ChangePercent>
+        <ChangePercentYTD>19.3942354665364</ChangePercentYTD>
+        <ChangeYTD>40.94</ChangeYTD>
         <CompanyName>Agilent Technologies Inc</CompanyName>
         <ID>0fd741c7-8b8c-4c56-9325-294e6e16d62d</ID>
         <IsFavourite>true</IsFavourite>
-        <MasterETag i:nil="true" />
+        <MasterETag>"0x8D081E986446DEF"</MasterETag>
         <Name>StockCompany</Name>
         <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
-        <PriceActual>47.31</PriceActual>
+        <PriceActual>48.88</PriceActual>
         <PriceAlarm>48</PriceAlarm>
-        <PriceHigh>47.45</PriceHigh>
-        <PriceLow>46.78</PriceLow>
-        <PriceOpen>47.08</PriceOpen>
+        <PriceHigh>49.32</PriceHigh>
+        <PriceLow>48.685</PriceLow>
+        <PriceOpen>48.685</PriceOpen>
         <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0fd741c7-8b8c-4c56-9325-294e6e16d62d</RelativeLocation>
         <SemanticDomainName>Titan</SemanticDomainName>
         <Symbol>A</Symbol>
-        <Volume>36788</Volume>
+        <Volume>62301</Volume>
       </StockCompany>
     </CollectionContent>
     <ID>90737d00-7a95-4fee-bf7d-e2445d880441</ID>

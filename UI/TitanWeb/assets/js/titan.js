@@ -65,6 +65,12 @@ function loadAllStockCompanies(){
                 if(filterMode == "Descending")
                     return a["Change"] < 0;
             });
+            var coll = jsonObject["CollectionContent"];
+            for(var i = 0; i < coll.length; i++)
+            {
+                if(coll[i]["CompanyName"].length > 26)
+                    coll[i]["CompanyName"] = coll[i]["CompanyName"].substring(0,26).trim()+"..";
+            }
             dust.render("stockCompanyTemplate.dust", jsonObject, function (err, out) {
                 $("#stockCompaniesTitlePlaceHolder").html("All stocks");
                 $("#stockCompaniesPlaceHolder").html(out);
@@ -300,4 +306,42 @@ function hideLoading()
     $('#overlayPanel').html(_lastOverlayCode);
     if(_lastOverlayCode.length < 10)
         $('#overlayPanel').removeClass("overlay");
+}
+
+function refresh()
+{
+    var fd = new FormData();
+    fd.append('ExecuteOperation','RefreshData');
+    showLoading();
+    $.ajax({
+        data: fd,
+        cache:false,
+        processData: false,
+        contentType: false,
+        type: 'POST',
+        success: function(data){
+            setTimeout(function(){
+                hideLoading();
+            }, 500);
+        }
+    });
+}
+
+function refreshChart()
+{
+    var fd = new FormData();
+    fd.append('ExecuteOperation','RefreshChart');
+    showLoading();
+    $.ajax({
+        data: fd,
+        cache:false,
+        processData: false,
+        contentType: false,
+        type: 'POST',
+        success: function(data){
+            setTimeout(function(){
+                hideLoading();
+            }, 500);
+        }
+    });
 }

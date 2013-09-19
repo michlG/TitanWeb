@@ -1,21 +1,21 @@
 ﻿<StockCompany xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Titan">
-  <Change>0.0199999</Change>
-  <ChangePercent>0.0821</ChangePercent>
-  <ChangePercentYTD>14.614</ChangePercentYTD>
+  <Change>0.0199999999999996</Change>
+  <ChangePercent>0.0775795190069761</ChangePercent>
+  <ChangePercentYTD>21.2406015037594</ChangePercentYTD>
   <ChangeYTD>21.28</ChangeYTD>
   <CompanyName>Nash Finch Co</CompanyName>
   <ID>fbcbad51-af8b-418f-a206-e7e2cb8de1b8</ID>
-  <IsFavourite>false</IsFavourite>
+  <IsFavourite>true</IsFavourite>
   <MasterETag i:nil="true" />
   <Name>StockCompany</Name>
   <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
-  <PriceActual>24.39</PriceActual>
+  <PriceActual>25.8</PriceActual>
   <PriceAlarm>55</PriceAlarm>
-  <PriceHigh>24.39</PriceHigh>
-  <PriceLow>24.39</PriceLow>
-  <PriceOpen>24.39</PriceOpen>
+  <PriceHigh>0</PriceHigh>
+  <PriceLow>0</PriceLow>
+  <PriceOpen>25.41</PriceOpen>
   <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/fbcbad51-af8b-418f-a206-e7e2cb8de1b8</RelativeLocation>
   <SemanticDomainName>Titan</SemanticDomainName>
   <Symbol>NAFC</Symbol>
-  <Volume>300</Volume>
+  <Volume>27450</Volume>
 </StockCompany>

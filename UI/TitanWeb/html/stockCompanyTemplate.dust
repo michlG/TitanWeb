@@ -5,7 +5,7 @@
             <table style="border: none;">
                 <tr>
                     <th colspan="2">
-                        <h5>{Symbol} - {CompanyName}</h5>
+                        <h5>{CompanyName}</h5>
                     </th>
                 </tr>
                 <tr>

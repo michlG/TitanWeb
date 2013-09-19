@@ -1,51 +1,51 @@
 ﻿<StockCompanyCollection xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/Titan">
   <CollectionContent>
     <StockCompany>
-      <Change>-0.689</Change>
-      <ChangePercent>-2.16</ChangePercent>
-      <ChangePercentYTD>16.7741</ChangePercentYTD>
+      <Change>0.314</Change>
+      <ChangePercent>0.957287887564395</ChangePercent>
+      <ChangePercentYTD>23.9811753782334</ChangePercentYTD>
       <ChangeYTD>26.7097</ChangeYTD>
-      <CompanyName>Microsoft Corp.</CompanyName>
+      <CompanyName>Microsoft Corp</CompanyName>
       <ID>67ea9667-1642-4207-bfe3-208059311402</ID>
       <IsFavourite>false</IsFavourite>
       <MasterETag i:nil="true" />
       <Name>StockCompany</Name>
       <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
-      <PriceActual>31.19</PriceActual>
+      <PriceActual>33.115</PriceActual>
       <PriceAlarm>31</PriceAlarm>
-      <PriceHigh>31.465</PriceHigh>
-      <PriceLow>31.115</PriceLow>
-      <PriceOpen>31.39</PriceOpen>
+      <PriceHigh>33.47</PriceHigh>
+      <PriceLow>32.9</PriceLow>
+      <PriceOpen>33.42</PriceOpen>
       <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/67ea9667-1642-4207-bfe3-208059311402</RelativeLocation>
       <SemanticDomainName>Titan</SemanticDomainName>
       <Symbol>MSFT</Symbol>
-      <Volume>7102641</Volume>
+      <Volume>4937841</Volume>
     </StockCompany>
     <StockCompany>
-      <Change>10.63</Change>
-      <ChangePercent>2.17</ChangePercent>
-      <ChangePercentYTD>-6.3923</ChangePercentYTD>
-      <ChangeYTD>532.7243</ChangeYTD>
+      <Change>8.88</Change>
+      <ChangePercent>1.97280725139963</ChangePercent>
+      <ChangePercentYTD>-13.7498358146384</ChangePercentYTD>
+      <ChangeYTD>532.1729</ChangeYTD>
       <CompanyName>Apple Inc</CompanyName>
       <ID>31a97216-9aa8-417d-bca6-6b9dace87bda</ID>
       <IsFavourite>true</IsFavourite>
       <MasterETag i:nil="true" />
       <Name>StockCompany</Name>
       <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
-      <PriceActual>499.21</PriceActual>
+      <PriceActual>459</PriceActual>
       <PriceAlarm>480</PriceAlarm>
-      <PriceHigh>502.31</PriceHigh>
-      <PriceLow>497.34</PriceLow>
-      <PriceOpen>499.56</PriceOpen>
+      <PriceHigh>459.7</PriceHigh>
+      <PriceLow>447.7</PriceLow>
+      <PriceOpen>447.87</PriceOpen>
       <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/31a97216-9aa8-417d-bca6-6b9dace87bda</RelativeLocation>
       <SemanticDomainName>Titan</SemanticDomainName>
       <Symbol>AAPL</Symbol>
-      <Volume>366100</Volume>
+      <Volume>424657</Volume>
     </StockCompany>
     <StockCompany>
-      <Change>6.561</Change>
-      <ChangePercent>0.7625</ChangePercent>
-      <ChangePercentYTD>22.5564</ChangePercentYTD>
+      <Change>-3.36000000000001</Change>
+      <ChangePercent>-0.378480670451475</ChangePercent>
+      <ChangePercentYTD>25.0247391783765</ChangePercentYTD>
       <ChangeYTD>707.38</ChangeYTD>
       <CompanyName>Google Inc</CompanyName>
       <ID>76858818-e9dc-4a38-ac9b-5194907e99cb</ID>
@@ -53,20 +53,20 @@
       <MasterETag i:nil="true" />
       <Name>StockCompany</Name>
       <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
-      <PriceActual>866.94</PriceActual>
+      <PriceActual>884.4</PriceActual>
       <PriceAlarm>877</PriceAlarm>
-      <PriceHigh>867.67</PriceHigh>
-      <PriceLow>855.43</PriceLow>
-      <PriceOpen>860.37</PriceOpen>
+      <PriceHigh>887.885</PriceHigh>
+      <PriceLow>881</PriceLow>
+      <PriceOpen>887.885</PriceOpen>
       <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/76858818-e9dc-4a38-ac9b-5194907e99cb</RelativeLocation>
       <SemanticDomainName>Titan</SemanticDomainName>
       <Symbol>GOOG</Symbol>
-      <Volume>46484</Volume>
+      <Volume>36035</Volume>
     </StockCompany>
     <StockCompany>
-      <Change>0.0199999</Change>
-      <ChangePercent>0.0821</ChangePercent>
-      <ChangePercentYTD>14.614</ChangePercentYTD>
+      <Change>-0.0500000000000007</Change>
+      <ChangePercent>-0.196927924379675</ChangePercent>
+      <ChangePercentYTD>19.078947368421</ChangePercentYTD>
       <ChangeYTD>21.28</ChangeYTD>
       <CompanyName>Nash Finch Co</CompanyName>
       <ID>fbcbad51-af8b-418f-a206-e7e2cb8de1b8</ID>
@@ -74,36 +74,4467 @@
       <MasterETag i:nil="true" />
       <Name>StockCompany</Name>
       <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
-      <PriceActual>24.39</PriceActual>
+      <PriceActual>25.34</PriceActual>
       <PriceAlarm>22</PriceAlarm>
-      <PriceHigh>24.39</PriceHigh>
-      <PriceLow>24.39</PriceLow>
-      <PriceOpen>24.39</PriceOpen>
+      <PriceHigh>25.35</PriceHigh>
+      <PriceLow>25.09</PriceLow>
+      <PriceOpen>25.09</PriceOpen>
       <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/fbcbad51-af8b-418f-a206-e7e2cb8de1b8</RelativeLocation>
       <SemanticDomainName>Titan</SemanticDomainName>
       <Symbol>NAFC</Symbol>
       <Volume>300</Volume>
     </StockCompany>
     <StockCompany>
-      <Change>0.410000004</Change>
-      <ChangePercent>0.87364159</ChangePercent>
-      <ChangePercentYTD>15.6325</ChangePercentYTD>
-      <ChangeYTD>40.941</ChangeYTD>
+      <Change>0.199999999999996</Change>
+      <ChangePercent>0.41034058268361</ChangePercent>
+      <ChangePercentYTD>19.5407914020518</ChangePercentYTD>
+      <ChangeYTD>40.94</ChangeYTD>
       <CompanyName>Agilent Technologies Inc</CompanyName>
       <ID>0fd741c7-8b8c-4c56-9325-294e6e16d62d</ID>
       <IsFavourite>false</IsFavourite>
       <MasterETag i:nil="true" />
       <Name>StockCompany</Name>
       <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
-      <PriceActual>47.31</PriceActual>
+      <PriceActual>48.94</PriceActual>
       <PriceAlarm>46</PriceAlarm>
-      <PriceHigh>47.45</PriceHigh>
-      <PriceLow>46.78</PriceLow>
-      <PriceOpen>47.08</PriceOpen>
+      <PriceHigh>49.32</PriceHigh>
+      <PriceLow>48.685</PriceLow>
+      <PriceOpen>48.685</PriceOpen>
       <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0fd741c7-8b8c-4c56-9325-294e6e16d62d</RelativeLocation>
       <SemanticDomainName>Titan</SemanticDomainName>
       <Symbol>A</Symbol>
-      <Volume>36788</Volume>
+      <Volume>34392</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.155000000000001</Change>
+      <ChangePercent>1.91358024691359</ChangePercent>
+      <ChangePercentYTD>-4.89631336405529</ChangePercentYTD>
+      <ChangeYTD>8.68</ChangeYTD>
+      <CompanyName>Alcoa Inc</CompanyName>
+      <ID>2a35b76e-23c6-4484-b6e2-f3ab00c10845</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>8.255</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>8.3</PriceHigh>
+      <PriceLow>8.1</PriceLow>
+      <PriceOpen>8.1</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/2a35b76e-23c6-4484-b6e2-f3ab00c10845</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>AA</Symbol>
+      <Volume>704540</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.149999999999999</Change>
+      <ChangePercent>-0.604107933950859</ChangePercent>
+      <ChangePercentYTD>77.383719509478</ChangePercentYTD>
+      <ChangeYTD>13.91334</ChangeYTD>
+      <CompanyName>AAON Inc</CompanyName>
+      <ID>07ca1c7b-ac42-4a15-b302-2a4aeddb47b2</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>24.68</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>24.73</PriceHigh>
+      <PriceLow>24.68</PriceLow>
+      <PriceOpen>24.73</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/07ca1c7b-ac42-4a15-b302-2a4aeddb47b2</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>AAON</Symbol>
+      <Volume>200</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.219999999999999</Change>
+      <ChangePercent>-0.275965880582041</ChangePercent>
+      <ChangePercentYTD>9.88251554941259</ChangePercentYTD>
+      <ChangeYTD>72.35</ChangeYTD>
+      <CompanyName>Advance Auto Parts Inc</CompanyName>
+      <ID>6767d9e9-593d-4f80-9f80-a38e77484d9e</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>79.5</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>80</PriceHigh>
+      <PriceLow>79.5</PriceLow>
+      <PriceOpen>79.51</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/6767d9e9-593d-4f80-9f80-a38e77484d9e</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>AAP</Symbol>
+      <Volume>3976</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.32</Change>
+      <ChangePercent>0.719262755675443</ChangePercent>
+      <ChangePercentYTD>42.0960837165055</ChangePercentYTD>
+      <ChangeYTD>31.535</ChangeYTD>
+      <CompanyName>A. O. Smith Corp</CompanyName>
+      <ID>78b73fb8-2029-411e-8888-f334fbeef70a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>44.81</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>44.91</PriceHigh>
+      <PriceLow>44.43</PriceLow>
+      <PriceOpen>44.43</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/78b73fb8-2029-411e-8888-f334fbeef70a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>AOS</Symbol>
+      <Volume>4000</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.02</Change>
+      <ChangePercent>-0.86956521739131</ChangePercent>
+      <ChangePercentYTD>-14.2857142857143</ChangePercentYTD>
+      <ChangeYTD>2.66</ChangeYTD>
+      <CompanyName>Books-A-Million Inc</CompanyName>
+      <ID>0ef38617-237d-4525-834c-e4cec2e6aa2b</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>2.28</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0ef38617-237d-4525-834c-e4cec2e6aa2b</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BAMM</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.00999999999999979</Change>
+      <ChangePercent>0.137362637362637</ChangePercent>
+      <ChangePercentYTD>90.8376963350785</ChangePercentYTD>
+      <ChangeYTD>3.82</ChangeYTD>
+      <CompanyName>Build-A-Bear Workshop Inc</CompanyName>
+      <ID>34638b72-3b7d-4a21-b6c3-b5f045920dd9</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>7.29</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/34638b72-3b7d-4a21-b6c3-b5f045920dd9</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BBW</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.15</Change>
+      <ChangePercent>-0.948766603415563</ChangePercent>
+      <ChangePercentYTD>6.0257278266757</ChangePercentYTD>
+      <ChangeYTD>14.77</ChangeYTD>
+      <CompanyName>A. M. Castle &amp; Co</CompanyName>
+      <ID>24ca18a3-a9d9-439a-859a-e0949f80aad8</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>15.66</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>16.08</PriceHigh>
+      <PriceLow>15.66</PriceLow>
+      <PriceOpen>15.81</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/24ca18a3-a9d9-439a-859a-e0949f80aad8</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CAS</Symbol>
+      <Volume>4568</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.219999999999999</Change>
+      <ChangePercent>0.650310375406438</ChangePercent>
+      <ChangePercentYTD>51.6028495102404</ChangePercentYTD>
+      <ChangeYTD>22.46</ChangeYTD>
+      <CompanyName>Barnes Group Inc</CompanyName>
+      <ID>528888c0-f878-4bce-a928-497c22601ab7</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>34.05</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>34.15</PriceHigh>
+      <PriceLow>33.72</PriceLow>
+      <PriceOpen>33.84</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/528888c0-f878-4bce-a928-497c22601ab7</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>B</Symbol>
+      <Volume>5100</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.00499999999999989</Change>
+      <ChangePercent>0.0677506775067727</ChangePercent>
+      <ChangePercentYTD>31.875</ChangePercentYTD>
+      <ChangeYTD>5.6</ChangeYTD>
+      <CompanyName>Actuate Corp</CompanyName>
+      <ID>20e9e37a-9201-4dba-89ca-18e784020eb8</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>7.385</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>7.405</PriceHigh>
+      <PriceLow>7.37</PriceLow>
+      <PriceOpen>7.37</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/20e9e37a-9201-4dba-89ca-18e784020eb8</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BIRT</Symbol>
+      <Volume>3000</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0799999999999983</Change>
+      <ChangePercent>0.106666666666655</ChangePercent>
+      <ChangePercentYTD>67.9266383359427</ChangePercentYTD>
+      <ChangeYTD>44.71</ChangeYTD>
+      <CompanyName>Bally Technologies Inc</CompanyName>
+      <ID>484d1bec-9224-4bc9-b434-4abbcdd2ba2e</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>75.08</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>75.2</PriceHigh>
+      <PriceLow>74.87</PriceLow>
+      <PriceOpen>75.11</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/484d1bec-9224-4bc9-b434-4abbcdd2ba2e</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BYI</Symbol>
+      <Volume>3400</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>1.42999999999999</Change>
+      <ChangePercent>1.23627561165383</ChangePercent>
+      <ChangePercentYTD>55.3874734607219</ChangePercentYTD>
+      <ChangeYTD>75.36</ChangeYTD>
+      <CompanyName>Boeing Co</CompanyName>
+      <ID>0822c815-1bba-48c5-b30c-01adfdcb613a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>117.1</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>117.4</PriceHigh>
+      <PriceLow>115.63</PriceLow>
+      <PriceOpen>115.63</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0822c815-1bba-48c5-b30c-01adfdcb613a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BA</Symbol>
+      <Volume>95653</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0500000000000007</Change>
+      <ChangePercent>0.37257824143071</ChangePercent>
+      <ChangePercentYTD>20.6545982210837</ChangePercentYTD>
+      <ChangeYTD>11.1641</ChangeYTD>
+      <CompanyName>Natus Medical Inc</CompanyName>
+      <ID>b27618ff-d463-4998-9b5d-88327a657569</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>13.47</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>13.57</PriceHigh>
+      <PriceLow>13.34</PriceLow>
+      <PriceOpen>13.4</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b27618ff-d463-4998-9b5d-88327a657569</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BABY</Symbol>
+      <Volume>2900</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.620000000000005</Change>
+      <ChangePercent>0.83512931034484</ChangePercent>
+      <ChangePercentYTD>51.5384615384615</ChangePercentYTD>
+      <ChangeYTD>49.4</ChangeYTD>
+      <CompanyName>B/E Aerospace Inc</CompanyName>
+      <ID>14921796-27c2-49ff-b63f-ba355685f503</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>74.86</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>75.03</PriceHigh>
+      <PriceLow>74.01</PriceLow>
+      <PriceOpen>74.14</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/14921796-27c2-49ff-b63f-ba355685f503</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BEAV</Symbol>
+      <Volume>8401</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0549999999999997</Change>
+      <ChangePercent>0.454170107349294</ChangePercent>
+      <ChangePercentYTD>14.5480225988701</ChangePercentYTD>
+      <ChangeYTD>10.62</ChangeYTD>
+      <CompanyName>F.N.B. Corp</CompanyName>
+      <ID>baea8ef2-9c80-4f7d-bb69-7155d66d54eb</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>12.165</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>12.22</PriceHigh>
+      <PriceLow>12.08</PriceLow>
+      <PriceOpen>12.125</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/baea8ef2-9c80-4f7d-bb69-7155d66d54eb</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>FNB</Symbol>
+      <Volume>6100</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.349999999999994</Change>
+      <ChangePercent>0.789889415481815</ChangePercent>
+      <ChangePercentYTD>2.80847145488029</ChangePercentYTD>
+      <ChangeYTD>43.44</ChangeYTD>
+      <CompanyName>L.B. Foster Co</CompanyName>
+      <ID>151c08ae-0ce0-455e-9109-962ec29735a5</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>44.66</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>44.66</PriceHigh>
+      <PriceLow>44.66</PriceLow>
+      <PriceOpen>44.66</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/151c08ae-0ce0-455e-9109-962ec29735a5</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>FSTR</Symbol>
+      <Volume>200</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.710000000000008</Change>
+      <ChangePercent>-0.953660174613846</ChangePercent>
+      <ChangePercentYTD>23.4969016915089</ChangePercentYTD>
+      <ChangeYTD>59.71</ChangeYTD>
+      <CompanyName>J B Hunt Transport Services Inc</CompanyName>
+      <ID>2415f041-aaf7-4517-bb47-1e673d3ebbb0</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>73.74</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>74.09</PriceHigh>
+      <PriceLow>73.45</PriceLow>
+      <PriceOpen>74.09</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/2415f041-aaf7-4517-bb47-1e673d3ebbb0</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>JBHT</Symbol>
+      <Volume>19532</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0499999999999972</Change>
+      <ChangePercent>0.0980392156862742</ChangePercent>
+      <ChangePercentYTD>29.0444893832154</ChangePercentYTD>
+      <ChangeYTD>39.56</ChangeYTD>
+      <CompanyName>Citigroup Inc</CompanyName>
+      <ID>7924b112-5402-4ac0-a9d1-83a74780d81e</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>51.05</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>51.28</PriceHigh>
+      <PriceLow>50.88</PriceLow>
+      <PriceOpen>51.23</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/7924b112-5402-4ac0-a9d1-83a74780d81e</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>C</Symbol>
+      <Volume>384972</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.0399999999999991</Change>
+      <ChangePercent>-0.228571428571422</ChangePercent>
+      <ChangePercentYTD>-11.1450381679389</ChangePercentYTD>
+      <ChangeYTD>19.65</ChangeYTD>
+      <CompanyName>Cutwater Select Income Fund</CompanyName>
+      <ID>01c00db8-5b45-45f1-94a7-0a0791ce02e3</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>17.46</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>17.47</PriceHigh>
+      <PriceLow>17.46</PriceLow>
+      <PriceOpen>17.47</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/01c00db8-5b45-45f1-94a7-0a0791ce02e3</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CSI</Symbol>
+      <Volume>300</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0549999999999997</Change>
+      <ChangePercent>0.180268764339564</ChangePercent>
+      <ChangePercentYTD>39.0582347588717</ChangePercentYTD>
+      <ChangeYTD>21.98</ChangeYTD>
+      <CompanyName>CA Inc</CompanyName>
+      <ID>cef647cd-d8bc-4bed-9c6e-b82b7c619bd0</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>30.565</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>30.69</PriceHigh>
+      <PriceLow>30.45</PriceLow>
+      <PriceOpen>30.58</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/cef647cd-d8bc-4bed-9c6e-b82b7c619bd0</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CA</Symbol>
+      <Volume>115598</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.609999999999999</Change>
+      <ChangePercent>0.934579439252325</ChangePercent>
+      <ChangePercentYTD>57.7964071856287</ChangePercentYTD>
+      <ChangeYTD>41.75</ChangeYTD>
+      <CompanyName>Cabela's Inc</CompanyName>
+      <ID>8631cc09-20fc-4ca2-9ece-06f144c8bba2</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>65.88</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>65.98</PriceHigh>
+      <PriceLow>65.79</PriceLow>
+      <PriceOpen>65.79</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/8631cc09-20fc-4ca2-9ece-06f144c8bba2</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CAB</Symbol>
+      <Volume>800</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.0599999999999952</Change>
+      <ChangePercent>-0.154241645244202</ChangePercent>
+      <ChangePercentYTD>14.3361789814542</ChangePercentYTD>
+      <ChangeYTD>33.97</ChangeYTD>
+      <CompanyName>Camden National Corp</CompanyName>
+      <ID>677ec403-4d0e-4b32-a5ee-77d884fd3a9c</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>38.84</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/677ec403-4d0e-4b32-a5ee-77d884fd3a9c</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CAC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.109999999999999</Change>
+      <ChangePercent>-0.0921504565636222</ChangePercent>
+      <ChangePercentYTD>22.0175977082055</ChangePercentYTD>
+      <ChangeYTD>97.74</ChangeYTD>
+      <CompanyName>C R Bard Inc</CompanyName>
+      <ID>d74342f8-bd12-4c1d-a95c-88f015376352</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>119.26</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>119.63</PriceHigh>
+      <PriceLow>119.02</PriceLow>
+      <PriceOpen>119.63</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/d74342f8-bd12-4c1d-a95c-88f015376352</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BCR</Symbol>
+      <Volume>3900</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.229999999999997</Change>
+      <ChangePercent>0.383141762452111</ChangePercent>
+      <ChangePercentYTD>-4.68206263840557</ChangePercentYTD>
+      <ChangeYTD>63.22</ChangeYTD>
+      <CompanyName>C.H. Robinson Worldwide Inc</CompanyName>
+      <ID>2b35ef35-d8b2-40b9-8393-fdfc3aecd030</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>60.26</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>60.76</PriceHigh>
+      <PriceLow>59.75</PriceLow>
+      <PriceOpen>59.97</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/2b35ef35-d8b2-40b9-8393-fdfc3aecd030</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CHRW</Symbol>
+      <Volume>78807</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.24</Change>
+      <ChangePercent>1.75953079178885</ChangePercent>
+      <ChangePercentYTD>-29.5788939624556</ChangePercentYTD>
+      <ChangeYTD>19.71</ChangeYTD>
+      <CompanyName>J C Penney Company Inc</CompanyName>
+      <ID>6d9af089-f480-4268-a0fc-1ef890bc48e4</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>13.88</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>13.905</PriceHigh>
+      <PriceLow>13.64</PriceLow>
+      <PriceOpen>13.67</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/6d9af089-f480-4268-a0fc-1ef890bc48e4</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>JCP</Symbol>
+      <Volume>242460</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>ING Senior Income Fund Class C</CompanyName>
+      <ID>cc7d5a30-e666-4413-9fc0-12193dd730e9</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/cc7d5a30-e666-4413-9fc0-12193dd730e9</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>XSICX</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0799999999999983</Change>
+      <ChangePercent>0.130911471117656</ChangePercent>
+      <ChangePercentYTD>18.1274131274131</ChangePercentYTD>
+      <ChangeYTD>51.8</ChangeYTD>
+      <CompanyName>Dominion Resources Inc</CompanyName>
+      <ID>c4d3238a-7dd1-459d-993c-032f60c9324a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>61.19</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>61.52</PriceHigh>
+      <PriceLow>60.9</PriceLow>
+      <PriceOpen>61.24</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/c4d3238a-7dd1-459d-993c-032f60c9324a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>D</Symbol>
+      <Volume>61764</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0899999999999999</Change>
+      <ChangePercent>1.4218009478673</ChangePercent>
+      <ChangePercentYTD>52.8571428571428</ChangePercentYTD>
+      <ChangeYTD>4.2</ChangeYTD>
+      <CompanyName>Destination XL Group Inc</CompanyName>
+      <ID>88d263c7-c1e7-4ed8-94c7-2b192e8155e0</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>6.42</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>6.42</PriceHigh>
+      <PriceLow>6.41</PriceLow>
+      <PriceOpen>6.41</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/88d263c7-c1e7-4ed8-94c7-2b192e8155e0</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>DXLG</Symbol>
+      <Volume>500</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0287999999999986</Change>
+      <ChangePercent>0.19301396670508</ChangePercent>
+      <ChangePercentYTD>10.4951958610495</ChangePercentYTD>
+      <ChangeYTD>13.53</ChangeYTD>
+      <CompanyName>Dividend and Income Fund</CompanyName>
+      <ID>abca7ec2-680b-4eea-8e3e-ad99a5865153</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>14.95</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/abca7ec2-680b-4eea-8e3e-ad99a5865153</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>DNI</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.120000000000001</Change>
+      <ChangePercent>1.08108108108109</ChangePercent>
+      <ChangePercentYTD>1.26353790613719</ChangePercentYTD>
+      <ChangeYTD>11.08</ChangeYTD>
+      <CompanyName>Daktronics Inc</CompanyName>
+      <ID>319ed8b0-8f32-48b7-8bca-a0f34618d270</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>11.22</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>11.22</PriceHigh>
+      <PriceLow>11.06</PriceLow>
+      <PriceOpen>11.06</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/319ed8b0-8f32-48b7-8bca-a0f34618d270</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>DAKT</Symbol>
+      <Volume>800</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0300000000000011</Change>
+      <ChangePercent>0.143953934740892</ChangePercent>
+      <ChangePercentYTD>30.1122194513716</ChangePercentYTD>
+      <ChangeYTD>16.04</ChangeYTD>
+      <CompanyName>Darling International Inc</CompanyName>
+      <ID>8b2d95b5-4c3f-48ec-a0da-d6e89367ec25</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>20.87</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>20.925</PriceHigh>
+      <PriceLow>20.83</PriceLow>
+      <PriceOpen>20.83</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/8b2d95b5-4c3f-48ec-a0da-d6e89367ec25</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>DAR</Symbol>
+      <Volume>15370</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.219999999999999</Change>
+      <ChangePercent>1.10887096774193</ChangePercent>
+      <ChangePercentYTD>1.41557128412537</ChangePercentYTD>
+      <ChangeYTD>19.78</ChangeYTD>
+      <CompanyName>D.R. Horton Inc</CompanyName>
+      <ID>e7fa97b7-d122-4279-b6e1-180bc68e9f0a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>20.06</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>20.18</PriceHigh>
+      <PriceLow>19.77</PriceLow>
+      <PriceOpen>19.77</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/e7fa97b7-d122-4279-b6e1-180bc68e9f0a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>DHI</Symbol>
+      <Volume>270535</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>DJ Brazil15 TR</CompanyName>
+      <ID>4d7a436d-4661-4556-afc7-94384fb9f519</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/4d7a436d-4661-4556-afc7-94384fb9f519</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>B50BRR</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>DJ India15 TR</CompanyName>
+      <ID>b646ace5-0b7d-47e6-946a-029a34082057</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b646ace5-0b7d-47e6-946a-029a34082057</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>B50INR</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.259999999999998</Change>
+      <ChangePercent>0.622754491017963</ChangePercent>
+      <ChangePercentYTD>35.5598580187157</ChangePercentYTD>
+      <ChangeYTD>30.99</ChangeYTD>
+      <CompanyName>Brinker International Inc</CompanyName>
+      <ID>c5fa35fb-00b2-498d-99c3-51879bb11dd2</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>42.01</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>42.03</PriceHigh>
+      <PriceLow>41.64</PriceLow>
+      <PriceOpen>41.7</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/c5fa35fb-00b2-498d-99c3-51879bb11dd2</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>EAT</Symbol>
+      <Volume>29308</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>1.22</Change>
+      <ChangePercent>2.2739981360671</ChangePercent>
+      <ChangePercentYTD>7.59308753139847</ChangePercentYTD>
+      <ChangeYTD>50.9977</ChangeYTD>
+      <CompanyName>eBay Inc</CompanyName>
+      <ID>3e0617cd-387f-4736-a0d4-997fad80a41d</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>54.87</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>55.07</PriceHigh>
+      <PriceLow>53.86</PriceLow>
+      <PriceOpen>53.94</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/3e0617cd-387f-4736-a0d4-997fad80a41d</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>EBAY</Symbol>
+      <Volume>506659</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.380000000000003</Change>
+      <ChangePercent>2.11228460255699</ChangePercent>
+      <ChangePercentYTD>18.7459599224305</ChangePercentYTD>
+      <ChangeYTD>15.47</ChangeYTD>
+      <CompanyName>Ennis Inc</CompanyName>
+      <ID>e541bccb-ddb1-43fb-b5be-68c2929f4408</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>18.37</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>18.41</PriceHigh>
+      <PriceLow>18.37</PriceLow>
+      <PriceOpen>18.41</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/e541bccb-ddb1-43fb-b5be-68c2929f4408</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>EBF</Symbol>
+      <Volume>200</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.00999999999999979</Change>
+      <ChangePercent>0.0945179584120881</ChangePercent>
+      <ChangePercentYTD>-34.3052109181141</ChangePercentYTD>
+      <ChangeYTD>16.12</ChangeYTD>
+      <CompanyName>Ebix Inc</CompanyName>
+      <ID>817be33c-42b2-4331-a57b-1ed45678e3be</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>10.59</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>10.65</PriceHigh>
+      <PriceLow>10.57</PriceLow>
+      <PriceOpen>10.59</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/817be33c-42b2-4331-a57b-1ed45678e3be</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>EBIX</Symbol>
+      <Volume>34334</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.100000000000001</Change>
+      <ChangePercent>-0.526315789473697</ChangePercent>
+      <ChangePercentYTD>14.4067796610169</ChangePercentYTD>
+      <ChangeYTD>16.52</ChangeYTD>
+      <CompanyName>Enterprise Bancorp Inc</CompanyName>
+      <ID>ee5a924d-53c2-46c9-a5c3-6375dc0771a8</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>18.9</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>18.9</PriceHigh>
+      <PriceLow>18.9</PriceLow>
+      <PriceOpen>18.9</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/ee5a924d-53c2-46c9-a5c3-6375dc0771a8</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>EBTC</Symbol>
+      <Volume>100</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.280000000000001</Change>
+      <ChangePercent>-0.469011725293134</ChangePercent>
+      <ChangePercentYTD>32.1075625020843</ChangePercentYTD>
+      <ChangeYTD>44.9785</ChangeYTD>
+      <CompanyName>E. I. du Pont de Nemours and Co</CompanyName>
+      <ID>d237e31c-5ed5-4f2a-b7b8-6dc6e9237e82</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>59.42</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>59.91</PriceHigh>
+      <PriceLow>59.36</PriceLow>
+      <PriceOpen>59.72</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/d237e31c-5ed5-4f2a-b7b8-6dc6e9237e82</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>DD</Symbol>
+      <Volume>76351</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.190000000000001</Change>
+      <ChangePercent>1.11306385471588</ChangePercent>
+      <ChangePercentYTD>92.8491620111732</ChangePercentYTD>
+      <ChangeYTD>8.95</ChangeYTD>
+      <CompanyName>E*TRADE Financial Corp</CompanyName>
+      <ID>329a65db-9303-4e9c-9cd7-f65a9785f749</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>17.26</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>17.33</PriceHigh>
+      <PriceLow>17.06</PriceLow>
+      <PriceOpen>17.1</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/329a65db-9303-4e9c-9cd7-f65a9785f749</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ETFC</Symbol>
+      <Volume>65027</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>UBS E-TRACS Bloomberg CMCI Food </CompanyName>
+      <ID>b6da8274-042f-4710-ba44-f9e5018ead5b</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b6da8274-042f-4710-ba44-f9e5018ead5b</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>FUD</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>UBS E-TRACS Long Platinum </CompanyName>
+      <ID>6221a942-13a3-47de-90e4-2c470a603918</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/6221a942-13a3-47de-90e4-2c470a603918</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>PTM</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0299999999999976</Change>
+      <ChangePercent>0.172910662824188</ChangePercent>
+      <ChangePercentYTD>34.2084942084942</ChangePercentYTD>
+      <ChangeYTD>12.95</ChangeYTD>
+      <CompanyName>Ford Motor Co</CompanyName>
+      <ID>390fd122-849b-4c40-a66d-0ee2bae61851</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>17.38</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>17.44</PriceHigh>
+      <PriceLow>17.3</PriceLow>
+      <PriceOpen>17.35</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/390fd122-849b-4c40-a66d-0ee2bae61851</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>F</Symbol>
+      <Volume>800422</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.25</Change>
+      <ChangePercent>0.536595836016307</ChangePercent>
+      <ChangePercentYTD>34.5590347601264</ChangePercentYTD>
+      <ChangeYTD>34.81</ChangeYTD>
+      <CompanyName>Fidelity National Information Services Inc</CompanyName>
+      <ID>53f1a81c-a066-4e8b-a3d1-ed578c163c10</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>46.84</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>46.94</PriceHigh>
+      <PriceLow>46.78</PriceLow>
+      <PriceOpen>46.81</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/53f1a81c-a066-4e8b-a3d1-ed578c163c10</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>FIS</Symbol>
+      <Volume>13400</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0249999999999995</Change>
+      <ChangePercent>0.578703703703698</ChangePercent>
+      <ChangePercentYTD>1.51869158878504</ChangePercentYTD>
+      <ChangeYTD>4.28</ChangeYTD>
+      <CompanyName>Frontier Communications Corp</CompanyName>
+      <ID>fd85fb22-94b5-462d-9e9e-984ca071c9e3</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>4.345</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>4.38</PriceHigh>
+      <PriceLow>4.315</PriceLow>
+      <PriceOpen>4.345</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/fd85fb22-94b5-462d-9e9e-984ca071c9e3</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>FTR</Symbol>
+      <Volume>679980</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.0600000000000001</Change>
+      <ChangePercent>-3.44827586206897</ChangePercent>
+      <ChangePercentYTD>34.4</ChangePercentYTD>
+      <ChangeYTD>1.25</ChangeYTD>
+      <CompanyName>First Acceptance Corp</CompanyName>
+      <ID>cabc5926-922e-4c4e-9bcd-2635485f5d21</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>1.68</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/cabc5926-922e-4c4e-9bcd-2635485f5d21</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>FAC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.0400000000000009</Change>
+      <ChangePercent>-0.285918513223737</ChangePercent>
+      <ChangePercentYTD>-21.8487394957983</ChangePercentYTD>
+      <ChangeYTD>17.85</ChangeYTD>
+      <CompanyName>First Trust/Aberdeen Global Opportunity Income Fund</CompanyName>
+      <ID>c57fd14a-96ea-4be6-ac8b-ca5f7234d737</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>13.95</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>13.95</PriceHigh>
+      <PriceLow>13.92</PriceLow>
+      <PriceOpen>13.92</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/c57fd14a-96ea-4be6-ac8b-ca5f7234d737</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>FAM</Symbol>
+      <Volume>261</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>DJUBS HeatOilT-F</CompanyName>
+      <ID>5e093f02-12b0-4804-99eb-16ccc57ea1d0</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/5e093f02-12b0-4804-99eb-16ccc57ea1d0</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>DJUBHO3T</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>F ALPHA INDEX</CompanyName>
+      <ID>7094f1d7-0df5-4595-9973-354f496e0e71</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/7094f1d7-0df5-4595-9973-354f496e0e71</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>FRDSY</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0300000000000011</Change>
+      <ChangePercent>0.15329586101176</ChangePercent>
+      <ChangePercentYTD>26.4516129032258</ChangePercentYTD>
+      <ChangeYTD>15.5</ChangeYTD>
+      <CompanyName>Genpact Ltd</CompanyName>
+      <ID>afad3169-9436-4b77-ac9d-91fffbb7f6df</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>19.6</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>19.6</PriceHigh>
+      <PriceLow>19.47</PriceLow>
+      <PriceOpen>19.56</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/afad3169-9436-4b77-ac9d-91fffbb7f6df</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>G</Symbol>
+      <Volume>4200</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0600000000000023</Change>
+      <ChangePercent>0.13492241960873</ChangePercent>
+      <ChangePercentYTD>11.408556417313</ChangePercentYTD>
+      <ChangeYTD>39.97</ChangeYTD>
+      <CompanyName>AGL Resources Inc</CompanyName>
+      <ID>a8c6bec8-61c5-4b74-bcd4-25f79954af22</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>44.53</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>44.74</PriceHigh>
+      <PriceLow>44.5</PriceLow>
+      <PriceOpen>44.7</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/a8c6bec8-61c5-4b74-bcd4-25f79954af22</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>GAS</Symbol>
+      <Volume>4900</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.0899999999999999</Change>
+      <ChangePercent>-0.503355704697983</ChangePercent>
+      <ChangePercentYTD>6.78271308523409</ChangePercentYTD>
+      <ChangeYTD>16.66</ChangeYTD>
+      <CompanyName>Guggenheim Enhanced Equity Strategy Fund</CompanyName>
+      <ID>f8f5b594-93d4-4248-a491-a1844db36960</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>17.79</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/f8f5b594-93d4-4248-a491-a1844db36960</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>GGE</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.02</Change>
+      <ChangePercent>1.19760479041917</ChangePercent>
+      <ChangePercentYTD>45.6896551724138</ChangePercentYTD>
+      <ChangeYTD>1.16</ChangeYTD>
+      <CompanyName>Gulf Resources Inc</CompanyName>
+      <ID>b90e8d01-1e08-4811-9dc1-00f9b3f90fe9</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>1.69</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>1.69</PriceHigh>
+      <PriceLow>1.69</PriceLow>
+      <PriceOpen>1.69</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b90e8d01-1e08-4811-9dc1-00f9b3f90fe9</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>GURE</Symbol>
+      <Volume>200</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.0399999999999991</Change>
+      <ChangePercent>-0.296296296296295</ChangePercent>
+      <ChangePercentYTD>-10.2666666666667</ChangePercentYTD>
+      <ChangeYTD>15</ChangeYTD>
+      <CompanyName>Gleacher &amp; Company Inc</CompanyName>
+      <ID>d61b5e66-f3ba-4f21-b954-c7d199cf31ea</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>13.46</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/d61b5e66-f3ba-4f21-b954-c7d199cf31ea</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>GLCH</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.100000000000001</Change>
+      <ChangePercent>0.188928773852259</ChangePercent>
+      <ChangePercentYTD>54.9225825299445</ChangePercentYTD>
+      <ChangeYTD>34.23</ChangeYTD>
+      <CompanyName>G-III Apparel Group Ltd</CompanyName>
+      <ID>7bec044e-504e-4736-8f70-ac19aa7a7e7b</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>53.03</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>53.23</PriceHigh>
+      <PriceLow>53</PriceLow>
+      <PriceOpen>53.23</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/7bec044e-504e-4736-8f70-ac19aa7a7e7b</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>GIII</Symbol>
+      <Volume>400</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.649999999999999</Change>
+      <ChangePercent>1.17860380779691</ChangePercent>
+      <ChangePercentYTD>63.3967789165446</ChangePercentYTD>
+      <ChangeYTD>34.15</ChangeYTD>
+      <CompanyName>G&amp;K Services Inc</CompanyName>
+      <ID>6e35bb41-8e24-4391-a2ae-074403b73988</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>55.8</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>55.93</PriceHigh>
+      <PriceLow>54.94</PriceLow>
+      <PriceOpen>54.94</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/6e35bb41-8e24-4391-a2ae-074403b73988</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>GK</Symbol>
+      <Volume>807</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0199999999999996</Change>
+      <ChangePercent>0.284090909090903</ChangePercent>
+      <ChangePercentYTD>48.6315789473684</ChangePercentYTD>
+      <ChangeYTD>4.75</ChangeYTD>
+      <CompanyName>G Willi-Food International Ltd</CompanyName>
+      <ID>fb0ef9d6-8f86-419d-9c25-323e7435d2eb</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>7.06</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>7.15</PriceHigh>
+      <PriceLow>7.06</PriceLow>
+      <PriceOpen>7.11</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/fb0ef9d6-8f86-419d-9c25-323e7435d2eb</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>WILC</Symbol>
+      <Volume>2261</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Powershares DB G10 Currency Harvest Fund</CompanyName>
+      <ID>c0fee5f9-7d6d-4393-aa08-f3648034ae88</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/c0fee5f9-7d6d-4393-aa08-f3648034ae88</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>DBV</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.019999999999996</Change>
+      <ChangePercent>-0.044052863436117</ChangePercent>
+      <ChangePercentYTD>17.6562094892404</ChangePercentYTD>
+      <ChangeYTD>38.57</ChangeYTD>
+      <CompanyName>Hyatt Hotels Corp</CompanyName>
+      <ID>ac977624-1f43-4dee-a6a9-6bb1a0cb17e4</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>45.38</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>45.52</PriceHigh>
+      <PriceLow>45.29</PriceLow>
+      <PriceOpen>45.45</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/ac977624-1f43-4dee-a6a9-6bb1a0cb17e4</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>H</Symbol>
+      <Volume>3500</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.0400000000000063</Change>
+      <ChangePercent>-0.0513347022587318</ChangePercent>
+      <ChangePercentYTD>47.0543806646526</ChangePercentYTD>
+      <ChangeYTD>52.96</ChangeYTD>
+      <CompanyName>Hess Corp</CompanyName>
+      <ID>2f96b822-d7b2-4e20-99a3-a8b0211f28ce</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>77.88</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>78.22</PriceHigh>
+      <PriceLow>77.63</PriceLow>
+      <PriceOpen>77.87</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/2f96b822-d7b2-4e20-99a3-a8b0211f28ce</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>HES</Symbol>
+      <Volume>55943</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.199999999999999</Change>
+      <ChangePercent>-1.06951871657753</ChangePercent>
+      <ChangePercentYTD>72.8971962616823</ChangePercentYTD>
+      <ChangeYTD>10.7</ChangeYTD>
+      <CompanyName>Healthways Inc</CompanyName>
+      <ID>c9ff196e-cf49-4381-8cd3-46082421ba49</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>18.5</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>18.75</PriceHigh>
+      <PriceLow>18.47</PriceLow>
+      <PriceOpen>18.75</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/c9ff196e-cf49-4381-8cd3-46082421ba49</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>HWAY</Symbol>
+      <Volume>9232</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>-15.8469945355191</ChangePercentYTD>
+      <ChangeYTD>3.66</ChangeYTD>
+      <CompanyName>Hill International Inc</CompanyName>
+      <ID>1520d398-68ec-4dfd-aa47-7899af71f35e</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>3.08</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>3.08</PriceHigh>
+      <PriceLow>3.08</PriceLow>
+      <PriceOpen>3.08</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/1520d398-68ec-4dfd-aa47-7899af71f35e</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>HIL</Symbol>
+      <Volume>600</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.0199999999999996</Change>
+      <ChangePercent>0.111358574610243</ChangePercent>
+      <ChangePercentYTD>32.7917282127031</ChangePercentYTD>
+      <ChangeYTD>13.54</ChangeYTD>
+      <CompanyName>Hilltop Holdings Inc</CompanyName>
+      <ID>78879d3f-fd6c-4694-b588-c1a15babd2be</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>17.98</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>18.18</PriceHigh>
+      <PriceLow>17.92</PriceLow>
+      <PriceOpen>17.94</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/78879d3f-fd6c-4694-b588-c1a15babd2be</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>HTH</Symbol>
+      <Volume>7800</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>904</Change>
+      <ChangePercent>0.524057971014491</ChangePercent>
+      <ChangePercentYTD>29.3480531105475</ChangePercentYTD>
+      <ChangeYTD>134060</ChangeYTD>
+      <CompanyName>Berkshire Hathaway Inc</CompanyName>
+      <ID>0f84a249-78b5-4ce1-9854-a51e34c0bafa</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>173404</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>173830</PriceHigh>
+      <PriceLow>172960</PriceLow>
+      <PriceOpen>172960</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0f84a249-78b5-4ce1-9854-a51e34c0bafa</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BRK.A</Symbol>
+      <Volume>17</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.6</Change>
+      <ChangePercent>-4.22535211267605</ChangePercent>
+      <ChangePercentYTD>88.5868879419485</ChangePercentYTD>
+      <ChangeYTD>7.21153</ChangeYTD>
+      <CompanyName>Hawthorn Bancshares Inc</CompanyName>
+      <ID>7b0cda44-5374-4880-8f6b-506500f8d30c</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>13.6</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/7b0cda44-5374-4880-8f6b-506500f8d30c</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>HWBK</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>-0.0900000000000034</Change>
+      <ChangePercent>-0.340651021953076</ChangePercent>
+      <ChangePercentYTD>50.629290617849</ChangePercentYTD>
+      <ChangeYTD>17.48</ChangeYTD>
+      <CompanyName>P H Glatfelter Co</CompanyName>
+      <ID>605cb44a-211b-4a86-a51b-47ae95287cc2</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>26.33</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>26.41</PriceHigh>
+      <PriceLow>26.33</PriceLow>
+      <PriceOpen>26.41</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/605cb44a-211b-4a86-a51b-47ae95287cc2</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>GLT</Symbol>
+      <Volume>1100</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0.300000000000001</Change>
+      <ChangePercent>1.23406005758948</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Intelsat SA</CompanyName>
+      <ID>92c96502-38c7-4bbd-834e-9713aab96d0f</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>24.61</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>24.765</PriceHigh>
+      <PriceLow>24.11</PriceLow>
+      <PriceOpen>24.2</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/92c96502-38c7-4bbd-834e-9713aab96d0f</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>I</Symbol>
+      <Volume>1200</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Icahn Enterprises LP</CompanyName>
+      <ID>e6a5414a-001f-4ec7-b3ac-389e8f8403b0</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/e6a5414a-001f-4ec7-b3ac-389e8f8403b0</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>IEP</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Invesco Ltd</CompanyName>
+      <ID>375f597f-826c-4056-a0dc-db0b9884764e</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/375f597f-826c-4056-a0dc-db0b9884764e</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>IVZ</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Iconix Brand Group Inc</CompanyName>
+      <ID>cc202528-9108-46f2-aa27-ead3d41da93d</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/cc202528-9108-46f2-aa27-ead3d41da93d</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ICON</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Ingredion Inc</CompanyName>
+      <ID>8f959e8c-872b-4d2c-b599-c253148b79a7</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/8f959e8c-872b-4d2c-b599-c253148b79a7</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>INGR</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>American Strategic Income Portfolio I</CompanyName>
+      <ID>d040b28b-3c3f-42f9-9dc0-5ed4a1d11aaf</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/d040b28b-3c3f-42f9-9dc0-5ed4a1d11aaf</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ASP</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>MFS Intermarket Income Trust I</CompanyName>
+      <ID>7d98a2ea-c7bb-46e6-95d4-dbf415e6c837</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/7d98a2ea-c7bb-46e6-95d4-dbf415e6c837</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CMK</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Saturns Goldman Sachs Capital I</CompanyName>
+      <ID>8f6d9fea-c076-4741-8f02-fca6b4045975</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/8f6d9fea-c076-4741-8f02-fca6b4045975</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>HJN</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Jarden Corp</CompanyName>
+      <ID>b8b5d011-a3d3-43e0-b498-7d32f571af1d</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b8b5d011-a3d3-43e0-b498-7d32f571af1d</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>JAH</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>JAKKS Pacific Inc</CompanyName>
+      <ID>31fc1ac8-03c1-487d-915b-9937ac2cc879</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/31fc1ac8-03c1-487d-915b-9937ac2cc879</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>JAKK</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Jabil Circuit Inc</CompanyName>
+      <ID>e593e80d-3c55-4024-918b-667571eacd3f</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/e593e80d-3c55-4024-918b-667571eacd3f</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>JBL</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>JetBlue Airways Corp</CompanyName>
+      <ID>c0a17983-3aac-4523-bbad-b12e9360b8c1</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/c0a17983-3aac-4523-bbad-b12e9360b8c1</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>JBLU</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Arthur J. Gallagher &amp; Co.</CompanyName>
+      <ID>0eaae1c3-3794-4f7e-9788-0483b8b473bb</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0eaae1c3-3794-4f7e-9788-0483b8b473bb</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>AJG</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Jack In The Box Inc</CompanyName>
+      <ID>08b3761c-a7c9-41b1-88bd-3929428e1a2b</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/08b3761c-a7c9-41b1-88bd-3929428e1a2b</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>JACK</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>j2 Global Inc</CompanyName>
+      <ID>c59c316b-36b1-47b1-b002-a99d982bf267</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/c59c316b-36b1-47b1-b002-a99d982bf267</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>JCOM</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Jacobs Engineering Group Inc</CompanyName>
+      <ID>3c173e22-18df-4c86-9149-a7f698ce1a95</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/3c173e22-18df-4c86-9149-a7f698ce1a95</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>JEC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Kellogg Co</CompanyName>
+      <ID>79844249-bd62-4a96-b2ac-ec33ab85be61</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/79844249-bd62-4a96-b2ac-ec33ab85be61</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>K</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Kadant Inc</CompanyName>
+      <ID>2703452c-15de-4892-be6f-a81764aed99b</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/2703452c-15de-4892-be6f-a81764aed99b</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>KAI</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Kaman Corp</CompanyName>
+      <ID>2bfb0527-4693-419e-aac3-e00efd51e01a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/2bfb0527-4693-419e-aac3-e00efd51e01a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>KAMN</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Kimball International Inc</CompanyName>
+      <ID>a26d4682-89cc-40e4-acf0-cad7d7dc892a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/a26d4682-89cc-40e4-acf0-cad7d7dc892a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>KBALB</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>KB Home</CompanyName>
+      <ID>4333a72d-ed3d-4bdc-ad07-7479ff0c5c39</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/4333a72d-ed3d-4bdc-ad07-7479ff0c5c39</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>KBH</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Cathay General Bancorp</CompanyName>
+      <ID>3ae42c38-490d-4482-8891-560ecd7ff946</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/3ae42c38-490d-4482-8891-560ecd7ff946</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CATY</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Invesco Trust for New York Investment Grade Municipals</CompanyName>
+      <ID>4504b2ec-abfe-47ca-8ba1-5a89b52f0364</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/4504b2ec-abfe-47ca-8ba1-5a89b52f0364</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>VTN</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Kaiser Aluminum Corp</CompanyName>
+      <ID>d4afd2de-af89-4249-92f0-a62214b87788</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/d4afd2de-af89-4249-92f0-a62214b87788</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>KALU</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>K12 Inc</CompanyName>
+      <ID>9c80668f-4342-4b53-b74d-52ca4028a605</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/9c80668f-4342-4b53-b74d-52ca4028a605</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>LRN</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Loews Corp</CompanyName>
+      <ID>114c6527-c923-4655-afaa-bc14a3928e4d</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/114c6527-c923-4655-afaa-bc14a3928e4d</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>L</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Life Technologies Corp</CompanyName>
+      <ID>7e9960c1-1bbb-4db7-b8a2-3ca6b5864f49</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/7e9960c1-1bbb-4db7-b8a2-3ca6b5864f49</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>LIFE</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Multi-Color Corp</CompanyName>
+      <ID>f104e9e7-d00a-4e84-8cb6-e63eec8d4fcb</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/f104e9e7-d00a-4e84-8cb6-e63eec8d4fcb</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>LABL</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Lithia Motors Inc</CompanyName>
+      <ID>ec41204d-8c27-4964-b8f7-29db1646fdf1</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/ec41204d-8c27-4964-b8f7-29db1646fdf1</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>LAD</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Lamar Advertising Co</CompanyName>
+      <ID>349f37f1-0181-43a9-8c22-1015d02082b2</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/349f37f1-0181-43a9-8c22-1015d02082b2</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>LAMR</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>L-3 Communications Holdings Inc</CompanyName>
+      <ID>b0eb30e2-a49c-4f3c-bcd1-5398a3c8c7f8</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b0eb30e2-a49c-4f3c-bcd1-5398a3c8c7f8</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>LLL</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>L Brands Inc</CompanyName>
+      <ID>5c88fcc8-3754-46f3-98c4-7004a592fce2</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/5c88fcc8-3754-46f3-98c4-7004a592fce2</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>LTD</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>L.S. Starrett Co</CompanyName>
+      <ID>afd4c1c5-b1c9-46be-9448-c96541b78eb8</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/afd4c1c5-b1c9-46be-9448-c96541b78eb8</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>SCX</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Macy's Inc</CompanyName>
+      <ID>94dc9523-15e7-4fd1-b7b1-b61d7c8e0451</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/94dc9523-15e7-4fd1-b7b1-b61d7c8e0451</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>M</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Matson Inc</CompanyName>
+      <ID>64ade460-0e61-4503-864a-ea3959f4920e</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/64ade460-0e61-4503-864a-ea3959f4920e</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>MATX</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Meritor Inc</CompanyName>
+      <ID>22f9fcf6-47f6-44bc-b603-094e3a901530</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/22f9fcf6-47f6-44bc-b603-094e3a901530</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>MTOR</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Materion Corp</CompanyName>
+      <ID>f6fd5f45-a3e0-4e7e-a803-f00f71a604bb</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/f6fd5f45-a3e0-4e7e-a803-f00f71a604bb</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>MTRN</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>ModusLink Global Solutions Inc</CompanyName>
+      <ID>960a0112-dfeb-4669-90aa-228a244c13b4</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/960a0112-dfeb-4669-90aa-228a244c13b4</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>MLNK</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>M/I Homes Inc</CompanyName>
+      <ID>d98ef430-cbfc-4442-90b4-01c81b1042bf</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/d98ef430-cbfc-4442-90b4-01c81b1042bf</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>MHO</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>M&amp;T Bank Corp</CompanyName>
+      <ID>1eb499df-ed55-4635-8803-83e2705d040e</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/1eb499df-ed55-4635-8803-83e2705d040e</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>MTB</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>J. M. Smucker Co</CompanyName>
+      <ID>468b4cc0-c478-42f2-a483-a58367ce232a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/468b4cc0-c478-42f2-a483-a58367ce232a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>SJM</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>NetSuite Inc</CompanyName>
+      <ID>0f49926e-b276-43b7-b267-11ed36e3c03a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0f49926e-b276-43b7-b267-11ed36e3c03a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>N</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Insperity Inc</CompanyName>
+      <ID>3bfc5cfd-d522-41c8-a5bd-659299878ae9</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/3bfc5cfd-d522-41c8-a5bd-659299878ae9</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>NSP</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>NextEra Energy Inc</CompanyName>
+      <ID>c52a9a46-d520-4b03-aaa5-0f24d52f1cb0</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/c52a9a46-d520-4b03-aaa5-0f24d52f1cb0</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>NEE</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Nuveen CA Dividend Advantage Municipal Fund</CompanyName>
+      <ID>27aedaae-c991-4543-872f-865c41f64acb</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/27aedaae-c991-4543-872f-865c41f64acb</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>NAC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Nuveen Dividend Advantage Municipal Fund</CompanyName>
+      <ID>02005cac-f225-4e22-ab42-3852999b9ffa</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/02005cac-f225-4e22-ab42-3852999b9ffa</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>NAD</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>TrustCo Bank Corp N Y</CompanyName>
+      <ID>979f5c92-80a0-4130-b39a-1cb80280e379</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/979f5c92-80a0-4130-b39a-1cb80280e379</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>TRST</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>AerCap Holdings N.V.</CompanyName>
+      <ID>dbf302ca-acb9-4fe1-a5ec-b8c8b8e46c45</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/dbf302ca-acb9-4fe1-a5ec-b8c8b8e46c45</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>AER</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>AVG Technologies NV</CompanyName>
+      <ID>fd98281b-042c-4170-932b-e6d5d8405952</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/fd98281b-042c-4170-932b-e6d5d8405952</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>AVG</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Realty Income Corp</CompanyName>
+      <ID>19627279-1985-48a5-a36b-b02917872d9b</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/19627279-1985-48a5-a36b-b02917872d9b</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>O</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Oncothyreon Inc</CompanyName>
+      <ID>5c0cc895-3b7f-44a5-93da-41c8600b7f73</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/5c0cc895-3b7f-44a5-93da-41c8600b7f73</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ONTY</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Outerwall Inc</CompanyName>
+      <ID>140310ce-4a26-46ba-bc5a-f8fef0848399</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/140310ce-4a26-46ba-bc5a-f8fef0848399</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>OUTR</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>ONEOK Partners LP</CompanyName>
+      <ID>97689cc5-54e2-421a-a27b-32f3d36756d8</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/97689cc5-54e2-421a-a27b-32f3d36756d8</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>OKS</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>OceanFirst Financial Corp</CompanyName>
+      <ID>40fb9a50-40b5-46d4-aae8-0310a6a917c2</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/40fb9a50-40b5-46d4-aae8-0310a6a917c2</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>OCFC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Data I/O Corp</CompanyName>
+      <ID>80f9872d-1a5a-4405-94ac-8872bebd4e70</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/80f9872d-1a5a-4405-94ac-8872bebd4e70</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>DAIO</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Oak Valley Bancorp</CompanyName>
+      <ID>f71a2aa8-595d-44cb-8d02-be69cfaf8240</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/f71a2aa8-595d-44cb-8d02-be69cfaf8240</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>OVLY</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Pandora Media Inc</CompanyName>
+      <ID>3b4f1204-6dd0-49f8-886f-9fad9794e974</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/3b4f1204-6dd0-49f8-886f-9fad9794e974</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>P</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Prologis Inc</CompanyName>
+      <ID>49d39612-86e2-4e24-b343-4ed69bbe72f6</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/49d39612-86e2-4e24-b343-4ed69bbe72f6</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>PLD</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>PacWest Bancorp</CompanyName>
+      <ID>34ab3d2f-50de-4958-b307-3daece80e159</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/34ab3d2f-50de-4958-b307-3daece80e159</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>PACW</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Pendrell Corp</CompanyName>
+      <ID>7b311bfe-c196-479c-97ae-9289d5fc087a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/7b311bfe-c196-479c-97ae-9289d5fc087a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>PCO</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>PowerSecure International Inc</CompanyName>
+      <ID>705b8cdf-3b6f-4281-8a35-1a11af551e74</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/705b8cdf-3b6f-4281-8a35-1a11af551e74</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>POWR</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>W. P. Carey Inc</CompanyName>
+      <ID>fc683d5c-746e-490a-979c-14f98977205b</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/fc683d5c-746e-490a-979c-14f98977205b</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>WPC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Rentech Nitrogen Partners LP</CompanyName>
+      <ID>e1ae80d9-395f-4927-80ad-8132c4612f5f</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/e1ae80d9-395f-4927-80ad-8132c4612f5f</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>RNF</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>LRR Energy LP</CompanyName>
+      <ID>c5685747-bfb4-48c5-88c0-239d1fd5d0ec</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/c5685747-bfb4-48c5-88c0-239d1fd5d0ec</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>LRE</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Quintiles Transnational Holdings Inc</CompanyName>
+      <ID>e7c81d2b-5f51-4914-ac3f-f951225edffa</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/e7c81d2b-5f51-4914-ac3f-f951225edffa</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>Q</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Quantum Corp</CompanyName>
+      <ID>3e488c95-2e90-40ed-94b2-7ab677682763</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/3e488c95-2e90-40ed-94b2-7ab677682763</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>QTM</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>QAD Inc</CompanyName>
+      <ID>6ca1e4b3-5b4a-4f39-95d4-f54f926470eb</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/6ca1e4b3-5b4a-4f39-95d4-f54f926470eb</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>QADB</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Qualcomm Inc</CompanyName>
+      <ID>bedfb0dd-0dd0-4949-ae25-794737fa929e</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/bedfb0dd-0dd0-4949-ae25-794737fa929e</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>QCOM</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Quidel Corp</CompanyName>
+      <ID>8cfc48e7-bf62-461d-af75-73ce3394cced</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/8cfc48e7-bf62-461d-af75-73ce3394cced</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>QDEL</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>BlackRock Municipal Income Investment Quality Trust</CompanyName>
+      <ID>70260e63-44d9-40a0-ada4-3234c31e1b68</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/70260e63-44d9-40a0-ada4-3234c31e1b68</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BAF</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>BlackRock Investment Quality Municipal</CompanyName>
+      <ID>8184581a-ae22-4114-95fe-3cb9f7dda593</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/8184581a-ae22-4114-95fe-3cb9f7dda593</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BKN</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>BlackRock New York Municipal Income Quality Trust</CompanyName>
+      <ID>833312fa-39b8-4184-8a43-c5e3667973e1</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/833312fa-39b8-4184-8a43-c5e3667973e1</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BSE</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>BlackRock Municipal Income Quality Trust</CompanyName>
+      <ID>a2dbeb8a-89ca-4349-845a-74445659787b</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/a2dbeb8a-89ca-4349-845a-74445659787b</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BYM</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Ryder System Inc</CompanyName>
+      <ID>ef584e29-1316-4347-8a48-a09d46acda8c</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/ef584e29-1316-4347-8a48-a09d46acda8c</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>R</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Ryman Hospitality Properties Inc</CompanyName>
+      <ID>a98d054c-b110-4b7b-9187-8797f5498eec</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/a98d054c-b110-4b7b-9187-8797f5498eec</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>RHP</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Rovi Corp</CompanyName>
+      <ID>b06f96b0-e632-4b2a-9a6f-71c2189fce90</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b06f96b0-e632-4b2a-9a6f-71c2189fce90</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ROVI</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Renasant Corp</CompanyName>
+      <ID>29dd57da-b6cf-41a0-b3dd-02dd8e66b1f7</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/29dd57da-b6cf-41a0-b3dd-02dd8e66b1f7</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>RNST</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Rite Aid Corp</CompanyName>
+      <ID>779c9f8c-56b1-44b1-b766-514c74e95b1c</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/779c9f8c-56b1-44b1-b766-514c74e95b1c</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>RAD</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>W. R. Berkley Corp</CompanyName>
+      <ID>ed794a70-152e-4029-9678-228890713fd3</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/ed794a70-152e-4029-9678-228890713fd3</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>WRB</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>W. R. Grace &amp; Co</CompanyName>
+      <ID>e1869e77-bb75-4544-86ba-f5aef7a874e5</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/e1869e77-bb75-4544-86ba-f5aef7a874e5</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>GRA</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Sprint Corp</CompanyName>
+      <ID>98d06241-4c0f-468c-a230-171593cad369</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/98d06241-4c0f-468c-a230-171593cad369</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>S</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Origin Agritech Ltd</CompanyName>
+      <ID>0ae7f4f1-b8d3-4754-8003-6ac525d935dd</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0ae7f4f1-b8d3-4754-8003-6ac525d935dd</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>SEED</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Simplicity Bancorp Inc</CompanyName>
+      <ID>75e3c9de-4c16-4975-b39d-bc0b0896d693</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/75e3c9de-4c16-4975-b39d-bc0b0896d693</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>SMPL</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Southern Copper Corp</CompanyName>
+      <ID>84b14b7b-9551-442f-a0a7-a017cfe1355f</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/84b14b7b-9551-442f-a0a7-a017cfe1355f</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>SCCO</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Special Opportunities Fund</CompanyName>
+      <ID>14a2059c-986a-4d88-aa34-d50461be61b2</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/14a2059c-986a-4d88-aa34-d50461be61b2</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>SPE</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>U.S. Bancorp</CompanyName>
+      <ID>892b94ca-8470-471e-b1ab-b4b7f12001b1</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/892b94ca-8470-471e-b1ab-b4b7f12001b1</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>USB</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>U.S. Physical Therapy Inc</CompanyName>
+      <ID>88d286eb-27d7-42c4-b0c5-00da55ea0290</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/88d286eb-27d7-42c4-b0c5-00da55ea0290</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>USPH</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>S Y Bancorp Inc</CompanyName>
+      <ID>1f659625-8f98-42ac-a1d8-a8bf48cbcc0d</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/1f659625-8f98-42ac-a1d8-a8bf48cbcc0d</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>SYBT</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>AT&amp;T Inc</CompanyName>
+      <ID>da98661d-6dba-47f1-b9ee-6cfb2226f342</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/da98661d-6dba-47f1-b9ee-6cfb2226f342</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>T</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Hanover Insurance Group Inc</CompanyName>
+      <ID>1c919a57-377a-4606-b452-0cfc040ab30a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/1c919a57-377a-4606-b452-0cfc040ab30a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>THG</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Gentherm Inc</CompanyName>
+      <ID>0f27b5f4-e994-44ad-9d8a-19994a28e4bc</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0f27b5f4-e994-44ad-9d8a-19994a28e4bc</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>THRM</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Interface Inc</CompanyName>
+      <ID>65b7b934-f341-4acf-a7da-3ac8077a16c3</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/65b7b934-f341-4acf-a7da-3ac8077a16c3</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>TILE</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>TrueBlue Inc</CompanyName>
+      <ID>7453e89a-b293-40f7-babd-1f758687e95a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/7453e89a-b293-40f7-babd-1f758687e95a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>TBI</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>T. Rowe Price Group Inc</CompanyName>
+      <ID>92f171d2-7016-40ba-8154-f3a35c9b0fa0</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/92f171d2-7016-40ba-8154-f3a35c9b0fa0</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>TROW</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>T-Mobile US Inc</CompanyName>
+      <ID>df6cdebf-2659-4b26-aafe-8ecbe278a78a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/df6cdebf-2659-4b26-aafe-8ecbe278a78a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>TMUS</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Air T Inc</CompanyName>
+      <ID>2fe7a2df-c2c0-4c5f-80a1-e96b54028f6e</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/2fe7a2df-c2c0-4c5f-80a1-e96b54028f6e</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>AIRT</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>SPDR Barclays 1-3 Month T-Bill ETF</CompanyName>
+      <ID>03173897-2101-44c9-bdc0-7b53222810bc</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/03173897-2101-44c9-bdc0-7b53222810bc</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>BIL</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Unwired Planet Inc</CompanyName>
+      <ID>2fe226ae-a55c-4137-8e1d-0d293e37e249</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/2fe226ae-a55c-4137-8e1d-0d293e37e249</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>UPIP</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Urstadt Biddle Properties Inc</CompanyName>
+      <ID>f8f7bc9b-a326-4b5d-993e-bc1ea829d1ed</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/f8f7bc9b-a326-4b5d-993e-bc1ea829d1ed</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>UBA</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>United Security Bancshares</CompanyName>
+      <ID>57c5612d-f7f1-4478-bca8-0965deb8ec68</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/57c5612d-f7f1-4478-bca8-0965deb8ec68</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>UBFO</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Union First Market Bankshares Corp</CompanyName>
+      <ID>3cc7180f-aeda-4b36-9766-e92d83d2441a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/3cc7180f-aeda-4b36-9766-e92d83d2441a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>UBSH</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>United Bankshares Inc</CompanyName>
+      <ID>10d6a160-69c6-4113-9f76-b4ca75bf2e71</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/10d6a160-69c6-4113-9f76-b4ca75bf2e71</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>UBSI</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>U.S. Silica Holdings Inc</CompanyName>
+      <ID>cc112bf4-c650-44be-b17f-07df46c47e6b</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/cc112bf4-c650-44be-b17f-07df46c47e6b</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>SLCA</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>U.S. Global Investors Inc</CompanyName>
+      <ID>1fe3bfc1-7ec1-45a1-9389-cf57b32e788d</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/1fe3bfc1-7ec1-45a1-9389-cf57b32e788d</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>GROW</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Visa Inc</CompanyName>
+      <ID>f5414cac-9b9f-4e22-b563-247178df03d7</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/f5414cac-9b9f-4e22-b563-247178df03d7</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>V</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>The Valspar Corp</CompanyName>
+      <ID>3ac147be-5f0b-43d7-8d11-8a386dba3060</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/3ac147be-5f0b-43d7-8d11-8a386dba3060</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>VAL</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Varian Medical Systems Inc</CompanyName>
+      <ID>1ff3873d-2b24-46fb-9aee-ea7de560dfa4</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/1ff3873d-2b24-46fb-9aee-ea7de560dfa4</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>VAR</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Vascular Solutions Inc</CompanyName>
+      <ID>076f8a00-3405-42da-bcd6-23041b1e54f4</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/076f8a00-3405-42da-bcd6-23041b1e54f4</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>VASC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Invesco Bond Fund</CompanyName>
+      <ID>6ed78aa5-733a-4008-9f4e-d218cfce25bf</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/6ed78aa5-733a-4008-9f4e-d218cfce25bf</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>VBF</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>BlackRock Corporate High Yield Fund V</CompanyName>
+      <ID>630bfa87-5031-4db2-b120-8a2acfb4faa2</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/630bfa87-5031-4db2-b120-8a2acfb4faa2</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>HYV</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>New York Community Capital Trust V</CompanyName>
+      <ID>03c720b2-4dfb-4ba5-9759-e0436bbf04b3</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/03c720b2-4dfb-4ba5-9759-e0436bbf04b3</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>NYCB PR U</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Walter Investment Management Corp</CompanyName>
+      <ID>9ba1d4a3-e23b-4672-984f-e3a6bb56bd73</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/9ba1d4a3-e23b-4672-984f-e3a6bb56bd73</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>WAC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>The Wendy's Co</CompanyName>
+      <ID>eeb7756c-f790-4ee3-81f2-cb44e1f95536</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/eeb7756c-f790-4ee3-81f2-cb44e1f95536</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>WEN</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Westinghouse Air Brake Technologies Corp</CompanyName>
+      <ID>b49e00ec-c677-44ad-b709-8c96d941d224</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b49e00ec-c677-44ad-b709-8c96d941d224</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>WAB</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Westamerica Bancorporation</CompanyName>
+      <ID>89c271af-e774-43ff-9c71-a5c05696df08</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/89c271af-e774-43ff-9c71-a5c05696df08</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>WABC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>W.W. Grainger Inc</CompanyName>
+      <ID>e73b8104-cacc-4f1c-a7ae-93184fa95687</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/e73b8104-cacc-4f1c-a7ae-93184fa95687</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>GWW</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Waddell &amp; Reed Financial Inc</CompanyName>
+      <ID>dd5de38a-67a5-4242-9620-f9c3ba6a7650</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/dd5de38a-67a5-4242-9620-f9c3ba6a7650</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>WDR</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Weatherford International Ltd</CompanyName>
+      <ID>b949c0e9-a17b-4082-b651-3f7e9b400679</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b949c0e9-a17b-4082-b651-3f7e9b400679</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>WFT</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Wabash National Corp</CompanyName>
+      <ID>07ce6cc2-8cc4-469d-a31c-f4268e617be4</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/07ce6cc2-8cc4-469d-a31c-f4268e617be4</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>WNC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>United States Steel Corp</CompanyName>
+      <ID>5ba35083-89b2-4815-abb0-18dddf985d46</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/5ba35083-89b2-4815-abb0-18dddf985d46</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>X</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>XO Group Inc</CompanyName>
+      <ID>856b8f80-eff6-42ba-8880-6a5e3564d9af</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/856b8f80-eff6-42ba-8880-6a5e3564d9af</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>XOXO</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>XPO Logistics Inc</CompanyName>
+      <ID>b0f07c63-e069-4ddc-9259-bf5ac911f780</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b0f07c63-e069-4ddc-9259-bf5ac911f780</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>XPO</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>American Municipal Income Portfolio</CompanyName>
+      <ID>a3f1e04e-26f8-4193-b4cc-b54490a71f7d</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/a3f1e04e-26f8-4193-b4cc-b54490a71f7d</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>XAA</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Cimarex Energy Co</CompanyName>
+      <ID>9d1e08a6-b296-4596-8034-3d075b2998bb</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/9d1e08a6-b296-4596-8034-3d075b2998bb</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>XEC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Chubb Corp</CompanyName>
+      <ID>7bc5f2e9-afed-4051-a9c6-1c007ed677b0</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/7bc5f2e9-afed-4051-a9c6-1c007ed677b0</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CB</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Xcel Energy Inc</CompanyName>
+      <ID>2562e02e-4210-499b-b849-c5df24a001e0</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/2562e02e-4210-499b-b849-c5df24a001e0</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>XEL</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Chatham Lodging Trust</CompanyName>
+      <ID>f5e3b9de-bf42-4190-ac5c-2cbf1eedce46</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/f5e3b9de-bf42-4190-ac5c-2cbf1eedce46</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CLDT</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>db-X 2010 Target Date Fund</CompanyName>
+      <ID>0b51cf7d-bebb-4e37-b4d1-3acbce73f1c1</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/0b51cf7d-bebb-4e37-b4d1-3acbce73f1c1</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>TDD</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Alleghany Corp</CompanyName>
+      <ID>e74bda48-759d-4534-8b69-80853bbf6217</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/e74bda48-759d-4534-8b69-80853bbf6217</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>Y</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Yadkin Financial Corp</CompanyName>
+      <ID>a0a0d745-bf97-4c99-8e97-07b836074fa3</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/a0a0d745-bf97-4c99-8e97-07b836074fa3</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>YDKN</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>YRC Worldwide Inc</CompanyName>
+      <ID>1fb95022-b76a-4f27-803b-62587df8fe69</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/1fb95022-b76a-4f27-803b-62587df8fe69</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>YRCW</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Yahoo! Inc</CompanyName>
+      <ID>4a7940cd-e895-4ac1-9a0b-b4b78459e092</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/4a7940cd-e895-4ac1-9a0b-b4b78459e092</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>YHOO</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>York Water Co</CompanyName>
+      <ID>e1532b4e-f993-4cfc-a3d3-9d8040760b5a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/e1532b4e-f993-4cfc-a3d3-9d8040760b5a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>YORW</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Yandex NV</CompanyName>
+      <ID>dec88af1-77b4-43a5-9077-f8ba8d801f02</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/dec88af1-77b4-43a5-9077-f8ba8d801f02</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>YNDX</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Caesarstone Sdot-Yam Ltd</CompanyName>
+      <ID>5f1b87c6-5aa2-4f77-91a5-35038f89e7c3</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/5f1b87c6-5aa2-4f77-91a5-35038f89e7c3</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>CSTE</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Zillow Inc</CompanyName>
+      <ID>b3a02bdb-a8a2-4bba-8654-b2f5cc71ab90</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/b3a02bdb-a8a2-4bba-8654-b2f5cc71ab90</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>Z</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Zebra Technologies Corp</CompanyName>
+      <ID>5dc8f1b1-88b6-4da7-afb0-33bc9511598e</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/5dc8f1b1-88b6-4da7-afb0-33bc9511598e</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ZBRA</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Olympic Steel Inc</CompanyName>
+      <ID>d47c9eb1-1ae6-4fcb-97fd-40ef5ac7b129</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/d47c9eb1-1ae6-4fcb-97fd-40ef5ac7b129</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ZEUS</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Zweig Fund</CompanyName>
+      <ID>4bc204a1-43d7-46dd-89cd-ad7d250c005a</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/4bc204a1-43d7-46dd-89cd-ad7d250c005a</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ZF</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Zygo Corp</CompanyName>
+      <ID>86520d4e-f1d8-4f74-bfc9-261dfeab4871</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/86520d4e-f1d8-4f74-bfc9-261dfeab4871</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ZIGO</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>La-Z-Boy In</CompanyName>
+      <ID>fd8c4b2c-1b73-48fa-9581-b88002bbaf17</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/fd8c4b2c-1b73-48fa-9581-b88002bbaf17</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>LZB</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Zions Bancorporation</CompanyName>
+      <ID>baae090b-6fcc-4b5c-beb1-5f8b3fdd3923</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/baae090b-6fcc-4b5c-beb1-5f8b3fdd3923</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ZION</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Zix Corp</CompanyName>
+      <ID>637c03cc-b634-419b-996e-d4593df13c85</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/637c03cc-b634-419b-996e-d4593df13c85</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ZIXI</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Zale Corp</CompanyName>
+      <ID>d52b2770-c0d9-4965-90fb-f02f133c6de0</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/d52b2770-c0d9-4965-90fb-f02f133c6de0</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ZLC</Symbol>
+      <Volume>0</Volume>
+    </StockCompany>
+    <StockCompany>
+      <Change>0</Change>
+      <ChangePercent>0</ChangePercent>
+      <ChangePercentYTD>0</ChangePercentYTD>
+      <ChangeYTD>0</ChangeYTD>
+      <CompanyName>Zimmer Holdings Inc</CompanyName>
+      <ID>a16b41cb-40c4-45b2-bd54-920ceebec0e4</ID>
+      <IsFavourite>false</IsFavourite>
+      <MasterETag i:nil="true" />
+      <Name>StockCompany</Name>
+      <OwnerID>00000000-0000-0000-0000-000000000000</OwnerID>
+      <PriceActual>0</PriceActual>
+      <PriceAlarm>0</PriceAlarm>
+      <PriceHigh>0</PriceHigh>
+      <PriceLow>0</PriceLow>
+      <PriceOpen>0</PriceOpen>
+      <RelativeLocation>grp/3bfc14eb-33fb-4d7d-b179-ab5ffc6184b7/Titan/StockCompany/a16b41cb-40c4-45b2-bd54-920ceebec0e4</RelativeLocation>
+      <SemanticDomainName>Titan</SemanticDomainName>
+      <Symbol>ZMH</Symbol>
+      <Volume>0</Volume>
     </StockCompany>
   </CollectionContent>
   <ID>bb05969a-6806-42a7-982c-30d002baaedf</ID>

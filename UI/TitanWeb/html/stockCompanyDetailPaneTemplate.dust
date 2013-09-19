@@ -172,7 +172,7 @@
     </div>
 
     <div> <!-- Years Chart -->
-        <h3>Last 10 years</h3>
+        <h3>Last 5 years</h3>
         <div class="k-content" style="margin: 10px;">
             <div class="chart-wrapper">
                 <div id="chartYears" style="height: 200px; width: 100%;"></div>
@@ -180,107 +180,126 @@
         </div>
     </div>
     <script>
-       $("#chartDays").kendoChart({
-               dataSource: {
-                   transport: {
-                       read: {
-                           url: "../../Titan/StockCompanyTrend/{Id}_Days.json",
-                           dataType: "json"
-                       }
-                   }
-               },
-                legend: {
-                    visible: false
-                },
-                seriesDefaults: {
-                    type: "area"
-                },
-                series: [{
-                    field: "value",
-                    name: "Stock Price"
-                }],
-                valueAxis: {
-                    labels: {
-                        format: "{0}$"
+        $.ajax({
+            type: 'GET',
+            url: "../../Titan/ChartPointCollection/"+window.location.hash.substring(1)+"_days.json?tmp="+new Date().getTime(),
+            cache:false,
+            success: function(jsonObject, textStatus, request){
+                jsonObject = jsonObject["CollectionContent"];
+                $("#chartDays").kendoChart({
+                    dataSource: {
+                        data: jsonObject
                     },
-                    line: {
+                    legend: {
                         visible: false
+                    },
+                    seriesDefaults: {
+                        type: "area"
+                    },
+                    series: [{
+                        field: "Value",
+                        name: "Stock Price"
+                    }],
+                    valueAxis: {
+                        labels: {
+                            format: "{0}$"
+                        },
+                        line: {
+                            visible: false
+                        }
+                    },
+                    categoryAxis: {
+                        field: "Timestamp",
+                        majorGridLines: {
+                            visible: false
+                        },
+                        labels: {
+                            rotation: -90
+                        }
                     }
-                },
-                categoryAxis: {
-                    field: "timestamp",
-                    majorGridLines: {
-                        visible: false
-                    }
-                }
-            });
-       $("#chartMonths").kendoChart({
-           dataSource: {
-               transport: {
-                   read: {
-                       url: "../../Titan/StockCompanyTrend/{Id}_Months.json",
-                       dataType: "json"
-                   }
-               }
-           },
-           legend: {
-               visible: false
-           },
-           seriesDefaults: {
-               type: "area"
-           },
-           series: [{
-               field: "value",
-               name: "Stock Price"
-           }],
-           valueAxis: {
-               labels: {
-                   format: "{0}$"
-               },
-               line: {
-                   visible: false
-               }
-           },
-           categoryAxis: {
-               field: "timestamp",
-               majorGridLines: {
-                   visible: false
-               }
-           }
-       });
+                });
+            }
+        });
 
-       $("#chartYears").kendoChart({
-           dataSource: {
-               transport: {
-                   read: {
-                       url: "../../Titan/StockCompanyTrend/{Id}_Years.json",
-                       dataType: "json"
-                   }
-               }
-           },
-           legend: {
-               visible: false
-           },
-           seriesDefaults: {
-               type: "area"
-           },
-           series: [{
-               field: "value",
-               name: "Stock Price"
-           }],
-           valueAxis: {
-               labels: {
-                   format: "{0}$"
-               },
-               line: {
-                   visible: false
-               }
-           },
-           categoryAxis: {
-               field: "timestamp",
-               majorGridLines: {
-                   visible: false
-               }
-           }
-       });
+        $.ajax({
+            type: 'GET',
+            url: "../../Titan/ChartPointCollection/"+window.location.hash.substring(1)+"_months.json?tmp="+new Date().getTime(),
+            cache:false,
+            success: function(jsonObject, textStatus, request){
+                jsonObject = jsonObject["CollectionContent"];
+                $("#chartMonths").kendoChart({
+                    dataSource: {
+                        data: jsonObject
+                    },
+                    legend: {
+                        visible: false
+                    },
+                    seriesDefaults: {
+                        type: "area"
+                    },
+                    series: [{
+                        field: "Value",
+                        name: "Stock Price"
+                    }],
+                    valueAxis: {
+                        labels: {
+                            format: "{0}$"
+                        },
+                        line: {
+                            visible: false
+                        }
+                    },
+                    categoryAxis: {
+                        field: "Timestamp",
+                        majorGridLines: {
+                            visible: false
+                        },
+                        labels: {
+                            rotation: -90
+                        }
+                    }
+                });
+            }
+        });
+
+        $.ajax({
+            type: 'GET',
+            url: "../../Titan/ChartPointCollection/"+window.location.hash.substring(1)+"_years.json?tmp="+new Date().getTime(),
+            cache:false,
+            success: function(jsonObject, textStatus, request){
+                jsonObject = jsonObject["CollectionContent"];
+                $("#chartYears").kendoChart({
+                    dataSource: {
+                        data: jsonObject
+                    },
+                    legend: {
+                        visible: false
+                    },
+                    seriesDefaults: {
+                        type: "area"
+                    },
+                    series: [{
+                        field: "Value",
+                        name: "Stock Price"
+                    }],
+                    valueAxis: {
+                        labels: {
+                            format: "{0}$"
+                        },
+                        line: {
+                            visible: false
+                        }
+                    },
+                    categoryAxis: {
+                        field: "Timestamp",
+                        majorGridLines: {
+                            visible: false
+                        },
+                        labels: {
+                            rotation: -90
+                        }
+                    }
+                });
+            }
+        });
     </script>
